@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Share of Total Assets Held by the Top 1% and the Bottom 50% from 1989 to 2021",
+    "title": {
+      "text": "% Share of Total Assets",
+      "subtitle": "Assets Held by the Top 1% (red) - Assets Held by the Bottom 50% (gray)",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "white"
+    },
+  
+    "width": "container",
+    "height": 350,
+  
+    "data": {"url": "/json/4_API/FREDdata_UNRATE.json",
+          "format": {"type": "json", "property": "observations"}
+        },
+    "transform": [{"filter": {"timeUnit": "year", "field": "date", "range": [1990, 2020]}}],
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": "year",
+        "timeUnit": "yearmonthdate",
+        "axis": {"gridOpacity": 0.5},
+        "scale": {
+            "domain": [
+              {"year": 1990, "month": "Jan", "date": 1},
+              {"year": 2020, "month": "Dec", "date": 1}
+            ]
+          }
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "scale": {"domain": [0, 20]},
+        "title": "percent"
+      }
+    }
+
+  }
