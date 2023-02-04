@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+      "text": "COVID deaths: Select UK Regions",
+      "subtitle":"Historic data of daily coronavirus deaths hosted locally.",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "darkred"
+    },
+    
+     "data": {
+      "url": "https://lhkkennedy.github.io/html/json/2_Hosting/data2_givenCovidDeaths.csv",
+      "format": {"type": "csv"}
+    },
+  
+     "transform":[
+       
+        {"filter": {
+          "field": "areaName", 
+          "oneOf": ["England", "Scotland", "Wales", "Northern Ireland"]}
+          }
+      ],
+    
+    
+    "height": 300,
+    "width": "container",
+    "mark": {"type": "line", "point": false},
+   
+    "encoding": {
+  
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": true}
+      },
+  
+      "y": {
+        "field": "cumDeaths28DaysByPublishDate",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": true}
+      },
+  
+      "color": {
+        "field": "areaName",
+        "type": "nominal",
+        "scale": {"scheme": "set1"},
+        "title": null,
+        "legend": {
+          "orient": "top-left", 
+          "fillColor": "#fff",
+          "padding": 5}
+      }
+  }
+}

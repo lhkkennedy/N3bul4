@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Energy sources produced by the UK",
+  "title": {
+    "text": "UK Energy Trends - Indigenous Production",
+    "subtitle": "DBEIS/ONS (in Million tonnes of oil equivalent)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": "container",
+  "height": 350,
+  "data": {
+    "url": "/json/7_Data_Stories/UKenergyProduction.csv",
+    "format": {"type": "csv"}
+  },
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "timeUnit": "year",
+          "title": "Year",
+          "axis": {
+            "format": "%Y",
+            "labelOverlap": "greedy",
+            "labelSeparation": 24,
+            "ticks": false
+          }
+        },
+        "y": {"field": "Mt", "type": "quantitative", "title": "Million tonnes", "aggregate": "mean"},
+        "color": {"field": "type", "type": "nominal"}
+      },
+      "layer": [{"mark": {"type": "line"}}]
+    }
+  ]
+}

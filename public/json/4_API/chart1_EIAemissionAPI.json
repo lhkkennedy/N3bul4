@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "US EIA chart",
+  
+    "title": {
+      "text": "Total carbon dioxide emissions ",
+      "subtitle":"Million metric tons CO2. USA, Annual. Source: US EIA",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+    "data": 
+      {
+        "url": "https://api.eia.gov/series/?series_id=EMISS.CO2-TOTV-TT-TO-US.A&api_key=bZ7fbef9jvSqEelw3XbaF6ise1CnHdeq2SX5Jbbp&out=json",
+        "format":{
+          "type":"json",
+          "property":"series"}
+      },
+  
+    "transform": [
+      {
+        "flatten":["data"],
+        "as":["dataArray"]
+      }
+    ],  
+    
+    "height": 300,
+    "width": "container",
+    
+    "mark": {
+      "type": "line",
+      "color": "mediumvioletred"
+    },
+    
+    "encoding": {
+    
+      "x": {
+        "field": "dataArray[0]",
+        "type": "temporal",
+        "axis": {
+          "title": "year",
+          "grid": false,
+          "ticks": true
+        }
+      },
+  
+      "y": {
+        "field": "dataArray[1]",
+        "type": "quantitative",
+        "title": "CO2",
+        "axis": {"grid": true},
+        "scale": {"domain": [0,8000]}
+      }
+    }
+  }

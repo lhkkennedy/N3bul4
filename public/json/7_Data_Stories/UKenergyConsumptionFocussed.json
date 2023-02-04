@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Share of Total Assets Held by the Top 1% and the Bottom 50% from 1989 to 2021",
+
+  "title": {
+  "text": "UK Energy Trends: Consumption (excluding petrol and gas)",
+  "subtitle": "DBEIS/ONS - 2010 to 2021 (in Million tonnes of oil equivalent)",
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+
+  "width":"container",
+  "height":350,
+
+  "data": {
+    "url": "/json/7_Data_Stories/UKenergyConsumptionFocussed.csv",
+    "format": {"type": "csv"}
+  },
+
+  "layer": [
+  {
+    "transform": [{"filter": {"field": "type", "oneOf":["bioenergywaste", "coal", "netimports", "nuclear", "windsolarandhydro"]}}],
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "timeUnit": "yearmonth",
+        "title": "Year",
+        "axis": {
+          "format": "%Y",
+          "labelOverlap": "greedy",
+          "labelSeparation": 24,
+          "ticks":false}},
+
+      "y": {"field": "Mt", "aggregate": "mean", "title": "Million tonnes"},
+      "color": {"field": "type", "type": "nominal"}
+    },
+    "layer": [
+      {"mark": {"type":"line"}}
+    ]
+  }
+    
+  
+  ]  
+}

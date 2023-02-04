@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "In-line Json data plotted in vega",
+
+  "title": {
+  "text": "In-line Json data plotted in vega",
+  "subtitle": "Values inserted in Json source code of chart",
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
+"width":"container",
+"height":350,
+
+  "data": {
+    "values": [
+      {"a": "1", "b": 28}, {"a": "2", "b": 55}, {"a": "3", "b": 43},
+      {"a": "4", "b": 91}, {"a": "5", "b": 81}, {"a": "6", "b": 53},
+      {"a": "7", "b": 19}, {"a": "8", "b": 87}, {"a": "9", "b": 52}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "a", "type": "nominal", "axis": {"labelAngle": 0}},
+    "y": {"field": "b", "type": "quantitative"}
+  }
+}

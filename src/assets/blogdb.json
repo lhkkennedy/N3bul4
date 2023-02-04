@@ -1,0 +1,422 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "thumbnail": "1_Embedding",
+            "alt": "UK COVID Heat Graph",
+            "title": "Embedding Data",
+            "Week": 2,
+            "date": "4th October, 2021",
+            "description_1": "Embed two charts that were gien in class.",
+            "description_2": "Embed one taken from the repository of charts on rapid charts.io",
+            "description_3": ""
+        },
+        {
+            "id": 2,
+            "thumbnail": "2_Hosting_Data",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Hosting Data",
+            "Week": 3,
+            "date": "11th October, 2021",
+            "description_1": "Embed two charts of own design",
+            "description_2": "a) from a given API",
+            "description_3": "b) from the same/related data saved to my GitHub"
+        },
+        {
+            "id": 3,
+            "thumbnail": "3_Editing_Data",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Editing Data",
+            "Week": 4,
+            "date": "18th October, 2021",
+            "description_1": "a) Embed one chart where the data is edited (add observation, add a series, create a new series).",
+            "description_2": "b) Embed a chart where the data is 'in-line' JSON. Minimum 5 observations.",
+            "description_3": ""
+        },
+        {
+            "id": 4,
+            "thumbnail": "4_API",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "API driven charts",
+            "Week": 5,
+            "date": "25th October, 2021",
+            "description_1": "Embed two charts from two seperate APIs that you sign up for & gain access to.",
+            "description_2": "",
+            "description_3": ""
+        },
+        {
+            "id": 5,
+            "thumbnail": "5_Loops",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Loops and APIs",
+            "Week": 6,
+            "date": "1st November, 2021",
+            "description_1": "Use a loop to batch download data.",
+            "description_2": "Download code from an API using fetch in Python and chart data.",
+            "description_3": ""
+        },        {
+            "id": 6,
+            "thumbnail": "6_Scraper",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Scraping Data",
+            "Week": 7,
+            "date": "8th November, 2021",
+            "description_1": "Build a scraper in Python.",
+            "description_2": "Save and chart the results",
+            "description_3": ""
+        },
+        {
+            "id": 7,
+            "thumbnail": "7_Data_Stories",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Data Stories",
+            "Week": 8,
+            "date": "15th November, 2021",
+            "description_1": "Attend one morening of Talking Economics and construct a chart that would:",
+            "description_2": "a) support or",
+            "description_3": "b) refute an argument made."
+        },        
+        {
+            "id": 8,
+            "thumbnail": "8_Advanced",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Advanced Analytics",
+            "Week": 9,
+            "date": "22nd November, 2021",
+            "description_1": "a) Build a chart with data from two seperate sources.",
+            "description_2": "b) Plot using correlation, regressions or some other technique.",
+            "description_3": "c) Build and embed a chart that uses advanced statistical methods, testing causality or distribution."
+        },
+        {
+            "id": 9,
+            "thumbnail": "9_Interactivity",
+            "alt": "UK COVID Regional Line Chart",
+            "title": "Interactivity",
+            "Week": 10,
+            "date": "29th November, 2021",
+            "description_1": "Build and embed two interactive charts",
+            "description_2": "",
+            "description_3": ""
+        }
+    ],
+    "sideContent": [
+        {
+            "id": 1,
+            "name": "profile",
+            "title": "My Data Science",
+            "text": "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.",
+            "src": "logo"
+        },
+        {
+            "id": 2,
+            "name": "list",
+            "title": "Top Posts"
+        },
+        {
+            "id": 3,
+            "name": "tags",
+            "title": "Tags"
+        }
+    ],
+    "panelContent": [
+        {
+            "id": 1,
+            "header": "1. Embedding Data",
+            "panel": "1_Embedding",
+            "content": [
+                {
+                    "chart": 1,
+                    "chartid": "firstChart",
+                    "chartsrc": "/json/1_Embedding/chart1_covidUKRegions.json",
+                    "blogDetails": "Example Graph 1",
+                    "blogDescription": "Given to show how to use vega to display graph",
+                    "date": "4th Octoboer, 2021",
+                    "blogText": "After starting our GitHub repositories and pages where we will host all of our charts for the profile. Each will represent a different skill crucial to data science. This week we learn the basics of manipulating html and css to embed charts that have been already coded in json. The html page uses scripts from vega vega-lite and vega-embed to create visualisations from a json spec. Data can be imported from a url to an API or hosted locally in a seperate file.",
+                    "blogText2": "This first graph imports data directly from the UK gov coronavirus API and as such updates on reload whenever new data is available to fetch."
+                },
+                {
+                    "chart": "2",
+                    "chartid": "secondChart",
+                    "chartsrc": "/json/1_Embedding/chart2_ukProductivity.json",
+                    "blogDetails": "Example Graph 2",
+                    "blogDescription": "Data was sourced from ONS as csv file",
+                    "date": "",
+                    "blogText": "This second graph, also given before hand, is pulling data from a github repository as a csv file. \\n The html embedscript looks like this:",
+                    "blogText2": "This first graph imports data directly from the UK gov coronavirus API and as such updates on reload whenever new data is available to fetch.",
+                    "codesrc": "embedding_1"
+                },
+                {
+                    "chart": "3",
+                    "chartid": "thirdChart",
+                    "chartsrc": "/json/1_Embedding/chart3_givenBitcoin.json",
+                    "blogDetails": "Bitcoin chart taken from rapidcharts.io",
+                    "blogDescription": "Data was sourced from Coinbase via FRED",
+                    "date": "",
+                    "blogText": "The third graoh was fetched from rapidcharts.io. By using the ispect tool I was able to pull the json spec and embed that here."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "header": "2. Hosting Data",
+            "panel": "2_Hosting_Data",
+            "content": [
+                {
+                    "chart": "4",
+                    "chartid": "fourthChart",
+                    "chartsrc": "/json/2_Hosting/chart1_givenCovidCases.json",
+                    "blogDetails": "ONS API Data",
+                    "blogDescription": "Data was sourced from an ONS API and filtered to only include Birmingham, Croydon, Manchester, Sheffield and Brighton.",
+                    "date": "11th October, 2021",
+                    "blogText": "Progressing from the specs we saw in the examples, I was tasked to design two charts that source their data differetly. This first chart simply source a direct URL of an API and the necessary parameters - API key, data points etc - in the json file",
+                    "blogText2": "The code in json to implement the API source and filter the data looks like this:",
+                    "codesrc": "hosting_1"
+                 },
+                 {
+                    "chart": "5",
+                    "chartid": "fifthChart",
+                    "chartsrc": "/json/2_Hosting/chart2_givenCovidDeaths.json",
+                    "blogDetails": "LocalHost Data",
+                    "blogDescription": "Data was sourced from ONS as a csv file and hosted on GitHub",
+                    "date": "",
+                    "blogText": "The second chart sources data from a csv file that holds data previously downloaded then hosted locally with this page on my GitHub repository.",
+                    "blogText2": "The code to implement a csv file as data for a chart looks like this: ",
+                    "codesrc": "hosting_2"
+                 }
+            ]
+        },
+        {
+            "id": 3,
+            "header": "3. Editing Data",
+            "panel": "3_Editing_Data",
+            "content": [
+                {
+                    "chart": "6",
+                    "chartid": "sixthChart",
+                    "chartsrc": "/json/3_Editing/chart1_STA.json",
+                    "blogDetails": "Python scripts",
+                    "blogDescription": "Manipulating data with scripts make your life much easier.",
+                    "date": "18th October, 2021",
+                    "blogText": "This week we were tasked to begin manipulating data to suite our needs. This chart plots two time series from two seperate API URLs. Pulling data from two seperate API URLs may take longer than if the data was together in one file hosted on GitHub. As I discover the json data files were deeply nested and would require some cleaning before a clean merge using python would be possible. After normalising the data and exporting the data frame to a csv file, the data set was merged into one file and hosted on GitHub.",
+                    "blogText2": "The code fo normalising nested json data and exporting it to a csv file looks like this:",
+                    "codesrc": "editing_1"
+                 },
+                 {
+                    "chart": "7",
+                    "chartid": "seventhChart",
+                    "chartsrc": "/json/3_Editing/chart2_inline.json",
+                    "blogDetails": "LocalHost Data",
+                    "blogDescription": "Data was sourced from ONS as a csv file and hosted on GitHub",
+                    "date": "",
+                    "blogText": "The second chart sources data from a csv file that holds data previously downloaded then hosted locally with this page on my GitHub repository.",
+                    "blogText2": "The code to implement a csv file as data for a chart looks like this: ",
+                    "codesrc": "editing_2"
+                 }
+            ]
+        },
+        {
+            "id": 4,
+            "header": "4. API",
+            "panel": "4_API",
+            "content": [
+                {
+                    "chart": "8",
+                    "chartid": "eighthChart",
+                    "chartsrc": "/json/4_API/chart1_EIAemissionAPI.json",
+                    "blogDetails": "Application Programming Interface",
+                    "blogDescription": "The focus for this session was navigating APIs to obtain the right data.",
+                    "date": "25th October, 2021",
+                    "blogText": "Many APIs will provide a free key within seconds of signing up. The two charts embedded here are linked to EIA emissions API and the FRED API.",
+                    "blogText2": "By reading the documentation of each API you can learn how to manipulate the request URL to change the data pulled.",
+                    "codesrc": "API_1"
+                 },
+                 {
+                    "chart": "9",
+                    "chartid": "ninethChart",
+                    "chartsrc": "/json/4_API/chart2_unrate.json",
+                    "blogDetails": "FRED API: Unemployment Rate",
+                    "blogDescription": "The API URL for the data used in this chart was included in a python program that downloaded data as a local file which was then hosted on Github.",
+                    "date": "",
+                    "blogText": "By understanding the structure of the URL pulling vast amounts of data becomes much easier.",
+                    "blogText2": "",
+                    "codesrc": "API_2"
+                 }
+            ]
+        },
+        {
+            "id": 5,
+            "header": "5. Loops",
+            "panel": "5_Loops",
+            "content": [
+                {
+                    "chart": "10",
+                    "chartid": "tenthChart",
+                    "chartsrc": "/json/5_Loops/chart1_TNW.json",
+                    "blogDetails": "Python Scripts & APIs",
+                    "blogDescription": "FRED API: Total Net Worth by wealth percentile",
+                    "date": "1st November, 2021",
+                    "blogText": "The focus for this session was navigating APIs to to obtain the right data. Many APIs will provide a free key within seconds of signing up. The two charts embedded here are linked to the EIA emissions API and the FRED API.",
+                    "blogText2": "By reading the documentation of each API you can learn how to manipulate the request URL to change the data pulled. The eia for example provides the sample URL and by inserting your own parameters you receive the desired response:",
+                    "codesrc": "Loops_1"
+                 },
+                 {
+                    "chart": "11",
+                    "chartid": "eleventhChart",
+                    "chartsrc": "/json/5_Loops/chart2_flightTimes.json",
+                    "blogDetails": "AeroDataBox",
+                    "blogDescription": "Flight duration from London Heathrow Airport (Top 5 Busiest Airports)",
+                    "date": "",
+                    "blogText": "This next chart presents data extracted from AeroDataBox API run on RapidAPI. It provides data points on the approximate distance and flight duration between airports. Each URL only produces data for one pair of airports so we require a for loop to run through the different series Ids.",
+                    "blogText2": "By loading the json file then inputting the data into a DataFrame to export as a csv we are able to host this data in a more accessible manner. The json spec points to one file for data.",
+                    "codesrc": "Loops_2"
+                 }
+            ]
+        },
+        {
+            "id": 6,
+            "header": "6. Scraper",
+            "panel": "6_Scraper",
+            "content": [
+                {
+                    "chart": "12",
+                    "chartid": "twelfthChart",
+                    "chartsrc": "/json/6_Scraper/chart_scraper.json",
+                    "blogDetails": "Parsing the Internet",
+                    "blogDescription": "Ticker scraped from YahooFinance",
+                    "date": "8th November, 2021",
+                    "blogText": "Building on the skills obtained by creating our own python scripts to automate some actions, we build an even more powerful tool to collect data from the internet. Scraping the contents of websites.",
+                    "blogText2": "By inspecting the source code and parsing the tags' identifiers, we can target thepiece of text that you find useful in the website. We can then use this to begin building a database.",
+                    "codesrc": ""
+                 },
+                 {
+                    "blogDetails": "yahooScraper.py",
+                    "blogDescription": "",
+                    "date": "",
+                    "blogText": "This example scrapes the information of select stocks and indicators on yahoofinance. The file yahooScraper.py is hosted on the GitHub and when ever it is run the data file for the chart is updated to the latest data. ",
+                    "blogText2": "By loading the json file then inputting the data into a DataFrame to export as a csv we are able to host this data in a more accessible manner. The json spec points to one file for data.",
+                    "codesrc": "Scraper_1"
+                 }
+            ]
+        },
+        {
+            "id": 7,
+            "header": "7. Data Stories",
+            "panel": "7_Data_Stories",
+            "content": [
+                {
+                    "chart": "13",
+                    "chartid": "thirteenthChart",
+                    "chartsrc": "/json/7_Data_Stories/UKenergyProduction.json",
+                    "blogDetails": "Data Stories",
+                    "blogDescription": "Department for Business, Energy & Industrial Strategy / Office of National Statistics",
+                    "date": "15th November, 2021",
+                    "blogText": "Are we moving in the right direction?",
+                    "blogText2": "After attending many talks at the Talking Economics Festival I noticed there was a common thread between many of the talks. Whether the makeup of the UK's energy supply was improving in the context of global warming. During one of these talks it was mentioned that the UK's fossil fuel industry had shrank in the last two decades. This is in fact true. Data from the ONS shows how our production of energy sources such as coal, natural gas and petroleum have seen a substantial fall but still significantly higher in relation to renewable sources.",
+                    "codesrc": ""
+                 },
+                 {
+                    "chart": "14",
+                    "chartid": "fourteenthChart",
+                    "chartsrc": "/json/7_Data_Stories/UKenergyConsumption.json",
+                    "blogDetails": "",
+                    "blogDescription": "",
+                    "date": "",
+                    "blogText": "The shrinking can also be seen in the consumption of energy as our total use falls over the last two and a half decades. Most of the fall is the result of coal which has seen more change than the more stable petroleum and natural gasses. If we are to begin decarbonisation we need to be reducing our dependencies on such sources. These sources are not trending in the direction of a carbon neutral UK.",
+                    "blogText2": "",
+                    "codesrc": ""
+                 },
+                 {
+                    "chart": "15",
+                    "chartid": "fifthteenthChart",
+                    "chartsrc": "/json/7_Data_Stories/UKenergyConsumptionFocussed.json",
+                    "blogDetails": "",
+                    "blogDescription": "",
+                    "date": "",
+                    "blogText": "This chart also shows how renewables have been stagnant and not seen much growth in the context of our total use. Coal has reached record lows however.",
+                    "blogText2": "",
+                    "codesrc": ""
+                 },
+                 {
+                    "chart": "",
+                    "chartid": "",
+                    "chartsrc": "",
+                    "blogDetails": "Data manipulation: STATA",
+                    "blogDescription": "The data required some reshaping which was done in STATA. The do file for reshaping energy production is below:",
+                    "date": "",
+                    "blogText": "",
+                    "blogText2": "",
+                    "codesrc": "Stories_1"
+                 }
+            ]
+        },
+        {
+            "id": 8,
+            "header": "8. Advanced Analytics",
+            "panel": "8_Advanced",
+            "content": [
+                {
+                    "chart": "16",
+                    "chartid": "sixthteenthChart",
+                    "chartsrc": "/json/8_Advanced_Analytics/chart1_multipleSources.json",
+                    "blogDetails": "Data Analytics",
+                    "blogDescription": "Multiple sources",
+                    "date": "22nd November, 2021",
+                    "blogText": "Using the vega layer operator we can superimpose one chart over the other. We can assign a seperate data url to each chart to allow us to make multiple API calls and chart data from two seperate sources together.",
+                    "blogText2": "",
+                    "codesrc": ""
+                 },
+                 {
+                    "chart": "17",
+                    "chartid": "seventeenthChart",
+                    "chartsrc": "/json/8_Advanced_Analytics/chart2_regression.json",
+                    "blogDetails": "Regressions",
+                    "blogDescription": "",
+                    "date": "",
+                    "blogText": "Below is a chart to show you can use the vega spec to do some further statistical analysis to your data",
+                    "blogText2": "",
+                    "codesrc": ""
+                 }
+            ]
+        },
+        {
+            "id": 9,
+            "header": "9. Interactivity",
+            "panel": "9_Interactivity",
+            "content": [
+                {
+                    "chart": "18",
+                    "chartid": "eighteenthChart",
+                    "chartsrc": "/json/9_Interactivity/chart2_Interactive.json",
+                    "blogDetails": "Data Analytics",
+                    "blogDescription": "Multiple sources",
+                    "date": "29th November, 2021",
+                    "blogText": "Below are some charts from last week that have had features added to them. Interactive charts allows the user to select what information they way to be presented with.",
+                    "blogText2": "",
+                    "codesrc": ""
+                 },
+                 {
+                    "chart": "19",
+                    "chartid": "nineteenthChart",
+                    "chartsrc": "/json/9_Interactivity/chart3_Interactive.json",
+                    "blogDetails": "",
+                    "blogDescription": "",
+                    "date": "",
+                    "blogText": "",
+                    "blogText2": "",
+                    "codesrc": ""
+                 },
+                 {
+                    "chart": "20",
+                    "chartid": "twentiethChart",
+                    "chartsrc": "/json/9_Interactivity/chart4_Interactive.json",
+                    "blogDetails": "Tooltip feature",
+                    "blogDescription": "",
+                    "date": "",
+                    "blogText": "",
+                    "blogText2": "",
+                    "codesrc": ""
+                 }
+            ]
+        }
+    ]
+}

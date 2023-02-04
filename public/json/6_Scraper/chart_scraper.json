@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "description": "Approximate Flight Duration from London Heathrow",
+  
+    "title": {
+      "text": "Approximate Flight Duration from London Heathrow(LHR)",
+      "subtitle":"Flight Duration(hours). Top 5 busiest airports. Source: Aerodatabox - RapidAPI",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "data": {
+      "url": "/json/6_Scraper/stockPrices.csv",
+      "format": {"type": "csv"}
+    },
+
+    "height": 300,
+    "width": "container",
+
+    "mark": {"type": "bar"},
+    "encoding": {
+      "x": {"field": "ticker", "type": "nominal"},
+      "y": {"field": "percentage_change", "type": "quantitative", "title": "Percentage"}     
+}
+}
