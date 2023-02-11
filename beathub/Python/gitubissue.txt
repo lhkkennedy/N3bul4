@@ -1,0 +1,19 @@
+Controller: Numark MixTrack Platinum FX
+| my-name | hex-item-value | channel | value| booleon | verbose |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| start-stop-left-keydown | 90 00 | 1 | 0 | true | Note on C-2 Velocity 127 |
+| start-stop-left-keyup | 80 00 | 1 | 127 | true | Note off C-2 Velocity 0 |
+| start-stop-right-keydown | 91 00 | 2 | 0 | true | Note on C-2 Velocity 127 |
+| start-stop-right-keyup | 81 00 | 2 | 127 | true | Note off C-2 Velocity 0 |
+| eq-high-right | B0 17 | 1 | 0 ~ 127 | false | Controller 23: x{value} |
+| eq-mid-right | B0 18 | 1 | 0 ~ 127 | false | Controller 24: x{value} |
+| eq-low-right | B0 19 | 1 | 0 ~ 127 | false | Controller 25: x{value} |
+| eq-high-left| B1 17 | 2 | 0 ~ 127 | false | Controller 23: x{value} |
+| eq-mid-left | B1 18 | 2 | 0 ~ 127 | false | Controller 24: x{value} |
+| eq-low-left | B1 19 | 2 | 0 ~ 127 | false | Controller 25: x{value} |
+| fx-HPF | 98 00 | 9 | 0 ~ 127 | true | Controller 25: x{value} |
+| fx-LPF | B1 19 | 2 | 0 ~ 127 | true| Controller 25: x{value} |
+| fx-Flanger | B1 19 | 2 | 0 ~ 127 | true| Controller 25: x{value} |
+| fx-Echo | B1 19 | 2 | 0 ~ 127 | true| Controller 25: x{value} |
+| fx-Reverb | B1 19 | 2 | 0 ~ 127 | true| Controller 25: x{value} |
+| fx-Phaser | B1 19 | 2 | 0 ~ 127 | true| Controller 25: x{value} |
