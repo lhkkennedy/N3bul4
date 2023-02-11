@@ -1,0 +1,42 @@
+my-name,hex-item-value,channel,value,booleon,verbose,active
+start-stop-left-keydown,90 00,1,0,TRUE,Note on C-2 Velocity 127,FALSE
+start-stop-left-keyup,80 00,1,127,TRUE,Note off C-2 Velocity 0,FALSE
+start-stop-right-keydown,91 00,2,0,TRUE,Note on C-2 Velocity 127,FALSE
+start-stop-right-keyup,81 00,2,127,TRUE,Note off C-2 Velocity 0,FALSE
+eq-high-right,B0 17,1,0 ~ 127,FALSE,Controller 23: x{value},FALSE
+eq-mid-right,B0 18,1,0 ~ 127,FALSE,Controller 24: x{value},FALSE
+eq-low-right,B0 19,1,0 ~ 127,FALSE,Controller 25: x{value},FALSE
+eq-high-left,B1 17,2,0 ~ 127,FALSE,Controller 23: x{value},FALSE
+eq-mid-left,B1 18,2,0 ~ 127,FALSE,Controller 24: x{value},FALSE
+eq-low-left,B1 19,2,0 ~ 127,FALSE,Controller 25: x{value},FALSE
+fx-Reverb,99 04,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-Phaser,99 05,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-HPF,98 00,9,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-LPF,98 01,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-Flanger,98 02,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-Echo,99 03,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-Reverb,99 04,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-Phaser,99 05,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-filter-right,B0 1A,1,0 ~ 127,FALSE,Controller 26: x(value),FALSE
+fx-filter-left,B1 1A,2,0 ~ 127,FALSE,Controller 26: x(value),FALSE
+fx-switch-hold-left,B8 03,9,2,FALSE,Controller 3,FALSE
+fx-switch-on-left,B8 03,9,1,FALSE,Controller 3,FALSE
+fx-switch-neutral-left,B8 03,9,0,FALSE,Controller 3,FALSE
+fx-switch-hold-right,B8 03,10,2,FALSE,Controller 3,FALSE
+fx-switch-on-right,B8 03,10,1,FALSE,Controller 3,FALSE
+fx-switch-neutral-right,B8 03,10,0,FALSE,Controller 3,FALSE
+volume-fader-left,B0 1C,1,0 ~ 127,FALSE,Controller 28,FALSE
+volume-fader-right,B1 1C,2,0 ~ 127,FALSE,Controller 28,FALSE
+cross-fader,BF 08,0,0 ~ 127,FALSE,Controller Balance,FALSE
+bpm-slider-left1,B0 09,1,0 ~ 127,FALSE,Controller 9,FALSE
+bpm-slider-left2,B0 29,1,0 ~ 127,FALSE,Controller 41,FALSE
+bpm-slider-right1,B1 09,2,0 ~ 127,FALSE,Controller 9,FALSE
+bpm-slider-right1,B1 29,2,0 ~ 127,FALSE,Controller 41,FALSE
+sync-left,90 02,1,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
+sync-left,91 02,2,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
+load-left,9F 02,16,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
+load-left,9F 03,16,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
+effect-level-knob1,B9 04,9,0 ~ 127,FALSE,Controller Foot Pedal (course),FALSE
+effect-level-knob2,B8 04,10,0 ~ 127,FALSE,Controller Foot Pedal (course),FALSE
+effect-interval-knob1,B9 05,9,0 ~ 127,FALSE,Controller Portamento Time (course),FALSE
+effect-interval-knob2,B8 05,10,0 ~ 127,FALSE,Controller Portamento Time (course),FALSE

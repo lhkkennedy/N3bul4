@@ -1,0 +1,44 @@
+[
+  {
+    "start-time": "01:24.23",
+    "midi-item-name": "EQ-RIGHT-HIGH",
+    "midi-item-code": "ERH",
+    "midi-item-values": [
+      {
+        "tick-time": "01:24.23",
+        "tick-value": "0.2"
+      },
+      {
+        "tick-time": "01:24.24",
+        "tick-value": "0.34"
+      },
+      {
+        "tick-time": "01:24.26",
+        "tick-value": "0.5"
+      }
+    ]
+  },
+  {
+    "start-time": "01:28.32",
+    "midi-item-name": "EQ-RIGH-HIGH",
+    "midi-item-code": "ERH",
+    "midi-item-values": [
+      {
+        "tick-time": "01:28.32",
+        "tick-value": "0.5"
+      },
+      {
+        "tick-time": "01:28.40",
+        "tick-value": "0.32"
+      },
+      {
+        "tick-time": "01:29.1",
+        "tick-value": "0.1"
+      },
+      {
+        "tick-time": "01:29.5",
+        "tick-value": "0.0"
+      }
+    ]
+  }
+]
