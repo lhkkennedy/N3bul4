@@ -33,22 +33,27 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      time: 0
+      time: 0,
+      sound: null,
     }
   },
   methods: {
+    stop() {
+      this.sound.stop()
+    },
     play() {
-      const sound = new Howl({
+      this.sound = new Howl({
       src: [audiosrc],
       html5: true
     })
-      var id = sound.play()
+      var id = this.sound.play()
+      console.log(this.sound)
       var counter = 0;
-      var i = setInterval(function(){
-      // do your thing
-      this.time = sound.seek()
-      counter++;
-    }, 200)
+      console.log(this.sound['_seek'])
+    //   var i = setInterval(function(){
+    //   // do your thing
+    //   console.log(this.sound)
+    // }, 200)
     },
     pause() {
       console.log(this.time)

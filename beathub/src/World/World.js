@@ -51,7 +51,18 @@ class World {
         loop.updatables.push(terrain);
         scene.add(light, terrain, plane);
 
+        const listener = new THREE.AudioListener();
+        camera.add( listener );
 
+        const sound = new THREE.Audio( listener )
+
+        const audioLoader = new THREE.AudioLoader();
+        audioLoader.load('beathub\src\assets\audio.mp3', function( buffer ) {
+            sound.setBuffer( buffer );
+            sound.setLoop( true )
+            sound.setVolumet( 0.5 )
+            sound.play()
+        })
         const resizer = new Resizer(container, camera, renderer);
         resizer.onResize = () => {
             this.render();
