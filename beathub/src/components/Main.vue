@@ -10,7 +10,7 @@
   <v-row>
     <v-col>
       <v-btn class="mx-6" @click="this.play()">play</v-btn>
-      <v-btn class="mx-6" @click="this.pause()">pause</v-btn>
+      <v-btn class="mx-6" @click="this.stop()">pause</v-btn>
       <v-btn class="mx-6" @click="this.volumeUp()">Volume Up</v-btn>
     </v-col>
   </v-row>
@@ -26,35 +26,29 @@
 
 <script>
 /* eslint-disable */
-import { Howl, Howler } from 'howler';
-import audiosrc from '@/assets/audio.mp3'
+import { World, sound, clock } from '../World/World.js'
 
 export default {
   name: 'HelloWorld',
   data() {
     return {
-      time: 0
+      time: 0,
+      sound: null,
     }
   },
   methods: {
+    stop() {
+      console.log(sound.context.currentTime)
+    },
     play() {
-      const sound = new Howl({
-      src: [audiosrc],
-      html5: true
-    })
-      var id = sound.play()
-      var counter = 0;
-      var i = setInterval(function(){
-      // do your thing
-      this.time = sound.seek()
-      counter++;
-    }, 200)
-    },
-    pause() {
-      console.log(this.time)
-    },
-    volumeUp() {
-      Howler.volume(0.5)
+        // Get a reference to the container element
+        const container = document.querySelector("#scene-container");
+        
+        // Create an instance of the World app
+        const world = new World(container);
+        
+        // Start the loop (produce a stream of frames)
+        world.start();
     }
   }
 }

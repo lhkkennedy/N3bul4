@@ -6,8 +6,9 @@ import { createRenderer } from "./systems/renderer.js"
 import { createTerrain } from "./components/objects/terrain.js"
 import { createPlane } from "./components/objects/player.js"
 import { createControls } from "./systems/controls.js"
-import { Loop } from "./systems/Loop.js"
+import { Loop, clock } from "./systems/Loop.js"
 import { Resizer } from "./systems/Resizer.js"
+import * as THREE from 'three';
 
 
 // These variables are module-scoped: we cannot access them
@@ -17,6 +18,9 @@ let controls;
 let renderer;
 let scene;
 let loop;
+let sound;
+let listener;
+let audioLoader;
 
 class World {
     constructor(container) {
@@ -25,9 +29,15 @@ class World {
         scene = createScene("blue");
         renderer = createRenderer();
         controls = createControls(camera, container);
+        listener = new THREE.AudioListener();
+        camera.add( listener );
+        sound = new THREE.Audio( listener )
+        audioLoader = new THREE.AudioLoader();
+        audioLoader.load('audio.mp3')
         // Initialize Loop
         loop = new Loop(camera, scene, renderer);
         container.append(renderer.domElement);
+
 
         // Random values for terrain vertices
         const randomVals = [];
@@ -40,6 +50,7 @@ class World {
         let terrain = createTerrain({
             color: "green",
             randVertexArr: randomVals,
+            clock: clock,
         })
 
         let plane = createPlane();
@@ -50,7 +61,6 @@ class World {
         loop.updatables.push(light);
         loop.updatables.push(terrain);
         scene.add(light, terrain, plane);
-
 
         const resizer = new Resizer(container, camera, renderer);
         resizer.onResize = () => {
@@ -71,4 +81,4 @@ class World {
         }
 }
 
-export { World };
+export { World, sound, clock };

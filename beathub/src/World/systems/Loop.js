@@ -8,6 +8,7 @@ class Loop{
         this.scene = scene;
         this.renderer = renderer;
         this.updatables = [];
+        this.counter = 0;
     }
 
     start() {
@@ -21,7 +22,6 @@ class Loop{
     stop() {
         this.renderer.setAnimationLoop(null);
     }
-
     tick() {
         const delta = clock.getDelta();
         for (const object of this.updatables) {
@@ -30,4 +30,4 @@ class Loop{
     }
 }
 
-export { Loop }
+export { Loop, clock }
