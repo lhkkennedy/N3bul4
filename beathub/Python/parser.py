@@ -6,9 +6,15 @@ import csv
 
 columns = ['index', 'time-stamp', 'in/out', 'verbose', 'channel', 'value', 'hex', 'active']
 targetColumns = ['midi-item-name', 'midi-item-code', 'midi-item-values']
+easy = 'parsedataeasy.csv'
+medium = 'parsedatamedium.csv'
+hard = 'parsedatahard.csv'
+nonsync = 'parsedataasync.csv'
 
-df = pd.read_csv('beathub\Python\midi\MidilongData.csv', header=None, names=columns)
-df2 = pd.read_csv('beathub\Python\midiDict.csv')
+select = easy
+data = 'midi\{}'.format(select)
+df = pd.read_csv(data, header=None, names=columns)
+df2 = pd.read_csv('midiDict.csv')
 
 class midiEvent:
 	def __init__(self, name, code, hex, channel, booleon, time, value, length):
@@ -40,7 +46,11 @@ def createEventClass(event_name, event_code, event_hex, event_channel, event_boo
 
 event_array = []
 
-print("_______________________________GitHub Table Format__________________________________")
+print("_______________________________GitHub Table Format__________________________________ \n")
+print(" ### parser.py output - input data: {}".format(select))
+print("________________________________________")
+print("| id | event-name | hex-code | time | Booleon| first-value | last-value | tick-length |")
+print("| --- | --- | --- | --- | --- | --- | --- | --- |")
 
 for count, x in enumerate(df.index):
 	midiHex = df['hex'][count][:-3]
@@ -68,26 +78,32 @@ for count, x in enumerate(df.index):
 				wait_counter = 0
 
 				while df2['active'][count2] == True:
-					if  count + wait_counter + event_length == len(df) - 1:
+					current_index = count+event_length+wait_counter
+					if  current_index == len(df) - 1:
 						df2.at[count2, 'active'] = False
-					if df2['hex-item-value'][count2].strip() == df['hex'][count+event_length+wait_counter][:-3].strip():
+					if df2['hex-item-value'][count2].strip() == df['hex'][current_index][:-3].strip():
+						wait_counter = 0
 						event_length += 1
-						tick_index = count + event_length + wait_counter - 1
-						tick_time = df['time-stamp'][tick_index]
-						tick_value = df['value'][tick_index]
+						tick_time = df['time-stamp'][current_index]
+						tick_value = df['value'][current_index]
 						tick = (tick_time, tick_value)
-						df.at[count+event_length+wait_counter, 'active'] = True
+						df.at[current_index, 'active'] = True
 						event_values.append(tick)
 					else:
 						wait_counter += 1
 						if wait_counter > 50:
 							df2.at[count2, 'active'] = False
+
 				createEventClass(event_name, event_code, event_hex, event_channel, event_booleon, event_time, event_values, len(event_values))
 
 			elif event_booleon == True:
 				event_value = df['value'][count]
 				createEventClass(event_name, event_code, event_hex, event_channel, event_booleon, event_time, event_value, len(event_value))
 
-print("===============================================================================")
+# print("===============================================================================")
 # print("===================================EVENT ARRAY====================================")
-# print(event_array)
+# for count, x in enumerate(event_array):
+# 	print("===============================================================================")
+# 	print("Event ", count, event_array[count][0], " : ", event_array[count][4])
+# 	print("==================================DATA=========================================")
+# 	print(event_array[count][5])
