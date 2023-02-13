@@ -26,7 +26,7 @@
 
 <script>
 /* eslint-disable */
-import { World, sound } from '../World/World.js'
+import { World, sound, clock } from '../World/World.js'
 
 export default {
   name: 'HelloWorld',
@@ -49,7 +49,6 @@ export default {
         
         // Start the loop (produce a stream of frames)
         world.start();
-        console.log(sound.context.currentTime)
     }
   }
 }

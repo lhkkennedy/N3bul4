@@ -6,7 +6,7 @@ import { createRenderer } from "./systems/renderer.js"
 import { createTerrain } from "./components/objects/terrain.js"
 import { createPlane } from "./components/objects/player.js"
 import { createControls } from "./systems/controls.js"
-import { Loop } from "./systems/Loop.js"
+import { Loop, clock } from "./systems/Loop.js"
 import { Resizer } from "./systems/Resizer.js"
 import * as THREE from 'three';
 
@@ -50,6 +50,7 @@ class World {
         let terrain = createTerrain({
             color: "green",
             randVertexArr: randomVals,
+            clock: clock,
         })
 
         let plane = createPlane();
@@ -80,4 +81,4 @@ class World {
         }
 }
 
-export { World, sound };
+export { World, sound, clock };
