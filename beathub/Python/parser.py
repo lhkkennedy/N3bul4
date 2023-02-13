@@ -13,10 +13,8 @@ nonsync = 'parsedataasync.csv'
 
 select = easy
 data = 'midi\{}'.format(select)
-print(data)
 df = pd.read_csv(data, header=None, names=columns)
 df2 = pd.read_csv('midiDict.csv')
-print(df, df2)
 
 class midiEvent:
 	def __init__(self, name, code, hex, channel, booleon, time, value, length):
@@ -48,7 +46,9 @@ def createEventClass(event_name, event_code, event_hex, event_channel, event_boo
 
 event_array = []
 
-print("_______________________________GitHub Table Format__________________________________")
+print("_______________________________GitHub Table Format__________________________________ \n")
+print(" ### parser.py output - input data: {}".format(select))
+print("________________________________________")
 print("| id | event-name | hex-code | time | Booleon| first-value | last-value | tick-length |")
 print("| --- | --- | --- | --- | --- | --- | --- | --- |")
 
@@ -82,6 +82,7 @@ for count, x in enumerate(df.index):
 					if  current_index == len(df) - 1:
 						df2.at[count2, 'active'] = False
 					if df2['hex-item-value'][count2].strip() == df['hex'][current_index][:-3].strip():
+						wait_counter = 0
 						event_length += 1
 						tick_time = df['time-stamp'][current_index]
 						tick_value = df['value'][current_index]
@@ -99,7 +100,7 @@ for count, x in enumerate(df.index):
 				event_value = df['value'][count]
 				createEventClass(event_name, event_code, event_hex, event_channel, event_booleon, event_time, event_value, len(event_value))
 
-print("===============================================================================")
+# print("===============================================================================")
 # print("===================================EVENT ARRAY====================================")
 # for count, x in enumerate(event_array):
 # 	print("===============================================================================")

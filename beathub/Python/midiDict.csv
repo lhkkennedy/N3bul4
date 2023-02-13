@@ -31,7 +31,7 @@ cross-fader,BF 08,0,0 ~ 127,FALSE,Controller Balance,FALSE
 bpm-slider-left1,B0 09,1,0 ~ 127,FALSE,Controller 9,FALSE
 bpm-slider-left2,B0 29,1,0 ~ 127,FALSE,Controller 41,FALSE
 bpm-slider-right1,B1 09,2,0 ~ 127,FALSE,Controller 9,FALSE
-bpm-slider-right1,B1 29,2,0 ~ 127,FALSE,Controller 41,FALSE
+bpm-slider-right2,B1 29,2,0 ~ 127,FALSE,Controller 41,FALSE
 sync-left,90 02,1,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
 sync-left,91 02,2,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
 load-left,9F 02,16,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
