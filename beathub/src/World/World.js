@@ -5,6 +5,7 @@ import { createScene } from "./components/scene.js"
 import { createRenderer } from "./systems/renderer.js"
 import { createTerrain } from "./components/objects/terrain.js"
 import { createPlane } from "./components/objects/player.js"
+import { createFxBar } from "./components/objects/testfxbar.js"
 import { createControls } from "./systems/controls.js"
 import { Loop, clock } from "./systems/Loop.js"
 import { Resizer } from "./systems/Resizer.js"
@@ -22,6 +23,7 @@ let sound;
 let listener;
 let audioLoader;
 
+
 class World {
     constructor(container) {
         //Instances of camera, scene, and renderer
@@ -35,7 +37,8 @@ class World {
         audioLoader = new THREE.AudioLoader();
         audioLoader.load('audio.mp3')
         // Initialize Loop
-        loop = new Loop(camera, scene, renderer);
+        
+        loop = new Loop(camera, scene, renderer, clock);
         container.append(renderer.domElement);
 
 
@@ -48,19 +51,20 @@ class World {
 
         // Terrain Instance
         let terrain = createTerrain({
-            color: "green",
+            color: "red",
             randVertexArr: randomVals,
             clock: clock,
         })
 
         let plane = createPlane();
-
+        let fxBar = createFxBar();
         // Light Instance, with optional light helper
-        const { light } = createLights("white");
+        const { light } = createLights("purple");
 
         loop.updatables.push(light);
         loop.updatables.push(terrain);
-        scene.add(light, terrain, plane);
+        loop.updatables.push(fxBar);
+        scene.add(light, terrain, plane, fxBar);
 
         const resizer = new Resizer(container, camera, renderer);
         resizer.onResize = () => {

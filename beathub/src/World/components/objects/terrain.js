@@ -1,4 +1,3 @@
-/* eslint-disable */
 import {
     PlaneGeometry,
     MeshStandardMaterial,
@@ -37,9 +36,8 @@ export default function createTerrain(props) {
     plane.geometry.attributes.position.randomValues = props.randVertexArr;
     let frame = 0;
     let nudge = 0.2
-    plane.tick = (delta) => {
+    plane.tick = () => {
         frame += 0.1;
-        console.log(clock.elapsedTime)
         // Destructuring of the random values, the original position and the current vertex position
         const { array, originalPosition, randomValues } = 
             plane.geometry.attributes.position;
