@@ -10,7 +10,7 @@
   <v-row>
     <v-col>
       <v-btn class="mx-6" @click="this.play()">play</v-btn>
-      <v-btn class="mx-6" @click="this.pause()">pause</v-btn>
+      <v-btn class="mx-6" @click="this.stop()">pause</v-btn>
       <v-btn class="mx-6" @click="this.volumeUp()">Volume Up</v-btn>
     </v-col>
   </v-row>
@@ -26,8 +26,7 @@
 
 <script>
 /* eslint-disable */
-import { Howl, Howler } from 'howler';
-import audiosrc from '@/assets/audio.mp3'
+import { World, sound } from '../World/World.js'
 
 export default {
   name: 'HelloWorld',
@@ -39,27 +38,18 @@ export default {
   },
   methods: {
     stop() {
-      this.sound.stop()
+      console.log(sound.context.currentTime)
     },
     play() {
-      this.sound = new Howl({
-      src: [audiosrc],
-      html5: true
-    })
-      var id = this.sound.play()
-      console.log(this.sound)
-      var counter = 0;
-      console.log(this.sound['_seek'])
-    //   var i = setInterval(function(){
-    //   // do your thing
-    //   console.log(this.sound)
-    // }, 200)
-    },
-    pause() {
-      console.log(this.time)
-    },
-    volumeUp() {
-      Howler.volume(0.5)
+        // Get a reference to the container element
+        const container = document.querySelector("#scene-container");
+        
+        // Create an instance of the World app
+        const world = new World(container);
+        
+        // Start the loop (produce a stream of frames)
+        world.start();
+        console.log(sound.context.currentTime)
     }
   }
 }
