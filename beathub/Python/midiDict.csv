@@ -9,22 +9,20 @@ eq-low-right,B0 19,1,0 ~ 127,FALSE,Controller 25: x{value},FALSE
 eq-high-left,B1 17,2,0 ~ 127,FALSE,Controller 23: x{value},FALSE
 eq-mid-left,B1 18,2,0 ~ 127,FALSE,Controller 24: x{value},FALSE
 eq-low-left,B1 19,2,0 ~ 127,FALSE,Controller 25: x{value},FALSE
-fx-Reverb,99 04,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-Phaser,99 05,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-HPF,98 00,9,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-LPF,98 01,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-Flanger,98 02,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-Echo,99 03,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-Reverb,99 04,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
-fx-Phaser,99 05,2,0 ~ 127,TRUE,Note on C-2 Velocity 127,FALSE
+fx-Reverb,99 04,2,0 ~ 127,FALSE,Note on C-2 Velocity 127,FALSE
+fx-Phaser,99 05,2,0 ~ 127,FALSE,Note on C-2 Velocity 127,FALSE
+fx-HPF,98 00,9,0 ~ 127,FALSE,Note on C-2 Velocity 127,FALSE
+fx-LPF,98 01,2,0 ~ 127,FALSE,Note on C-2 Velocity 127,FALSE
+fx-Flanger,98 02,2,0 ~ 127,FALSE,Note on C-2 Velocity 127,FALSE
+fx-Echo,99 03,2,0 ~ 127,FALSE,Note on C-2 Velocity 127,FALSE
 fx-filter-right,B0 1A,1,0 ~ 127,FALSE,Controller 26: x(value),FALSE
 fx-filter-left,B1 1A,2,0 ~ 127,FALSE,Controller 26: x(value),FALSE
 fx-switch-hold-left,B8 03,9,2,FALSE,Controller 3,FALSE
 fx-switch-on-left,B8 03,9,1,FALSE,Controller 3,FALSE
 fx-switch-neutral-left,B8 03,9,0,FALSE,Controller 3,FALSE
-fx-switch-hold-right,B8 03,10,2,FALSE,Controller 3,FALSE
-fx-switch-on-right,B8 03,10,1,FALSE,Controller 3,FALSE
-fx-switch-neutral-right,B8 03,10,0,FALSE,Controller 3,FALSE
+fx-switch-hold-right,B9 03,10,2,FALSE,Controller 3,FALSE
+fx-switch-on-right,B9 03,10,1,FALSE,Controller 3,FALSE
+fx-switch-neutral-right,B9 03,10,0,FALSE,Controller 3,FALSE
 volume-fader-left,B0 1C,1,0 ~ 127,FALSE,Controller 28,FALSE
 volume-fader-right,B1 1C,2,0 ~ 127,FALSE,Controller 28,FALSE
 cross-fader,BF 08,0,0 ~ 127,FALSE,Controller Balance,FALSE
@@ -33,10 +31,44 @@ bpm-slider-left2,B0 29,1,0 ~ 127,FALSE,Controller 41,FALSE
 bpm-slider-right1,B1 09,2,0 ~ 127,FALSE,Controller 9,FALSE
 bpm-slider-right2,B1 29,2,0 ~ 127,FALSE,Controller 41,FALSE
 sync-left,90 02,1,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
-sync-left,91 02,2,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
+sync-right,91 02,2,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
 load-left,9F 02,16,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
-load-left,9F 03,16,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
+load-right,9F 03,16,0 ~ 127,TRUE,Note on D-2 Velocity 127,FALSE
 effect-level-knob1,B9 04,9,0 ~ 127,FALSE,Controller Foot Pedal (course),FALSE
 effect-level-knob2,B8 04,10,0 ~ 127,FALSE,Controller Foot Pedal (course),FALSE
 effect-interval-knob1,B9 05,9,0 ~ 127,FALSE,Controller Portamento Time (course),FALSE
 effect-interval-knob2,B8 05,10,0 ~ 127,FALSE,Controller Portamento Time (course),FALSE
+jog-wheel-hold-left,90 06,1,0 ~ 127,TRUE,Note off F#-2 Velocity 0,FALSE
+jog-wheel-forward-left,B0 06,1,1,FALSE,Controller Data Entry(coarse):1,FALSE
+jog-wheel-backward-left,B0 06,1,127,FALSE,Controller Data Entry(coarse):127,FALSE
+jog-wheel-hold-right,91 06,2,0~127,TRUE,Note off F#-2 Velocity 0,FALSE
+jog-wheel-forward-right,B1 06,2,1,FALSE,Controller Data Entry(coarse):1,FALSE
+jog-wheel-backward-right,B1 06,2,127,FALSE,Controller Data Entry(coarse):127,FALSE
+cue-left,90 01,1,127,TRUE,Note on C#-2 Velocity 127,FALSE
+cue-right,93 01,2,127,TRUE,Note on C#-2 Velocity 127,FALSE
+fx-select-cue-left,94 00,5,127,TRUE,Note on C#-1 Velocity 127,FALSE
+fx-select-autoloop-left,94 0D,5,127,TRUE,Note on C#-1 Velocity 127,FALSE
+fx-select-fader-cuts-left,94 07,5,127,TRUE,Note on G-2 Velocity 127,FALSE
+fx-select-sample-left,94 0B,5,127,TRUE,Note on B-2 Velocity 127,FALSE
+fx-pad-1-left,94 14,5,127,TRUE,Note On G#-1 Velocity 127,FALSE
+fx-pad-2-left,94 15,5,127,TRUE,Note On A-1 Velocity 127,FALSE
+fx-pad-3-left,94 16,5,127,TRUE,Note On A#-1 Velocity 127,FALSE
+fx-pad-4-left,94 17,5,127,TRUE,Note On B-1 Velocity 127,FALSE
+fx-pad-5-left,94 18,5,127,TRUE,Note On C0 Velocity 127,FALSE
+fx-pad-6-left,94 19,5,127,TRUE,Note On C#0 Velocity 127,FALSE
+fx-pad-7-left,94 1A,5,127,TRUE,Note On D0 Velocity 127,FALSE
+fx-pad-8-left,94 1B,5,127,TRUE,Note On D#0 Velocity 127,FALSE
+fx-select-cue-right,95 00,5,127,TRUE,Note onC-2 Velocity 127,FALSE
+fx-select-autoloop-right,95 0D,5,127,TRUE,Note on C#-1 Velocity 127,FALSE
+fx-select-fader-cuts-right,95 07,5,127,TRUE,Note on G-2 Velocity 127,FALSE
+fx-select-sample-right,95 0B,5,127,TRUE,Note on B-2 Velocity 127,FALSE
+fx-pad-1-right,95 14,5,127,TRUE,Note On G#-1 Velocity 127,FALSE
+fx-pad-2-right,95 15,5,127,TRUE,Note On A-1 Velocity 127,FALSE
+fx-pad-3-right,95 16,5,127,TRUE,Note On A#-1 Velocity 127,FALSE
+fx-pad-4-right,95 17,5,127,TRUE,Note On B-1 Velocity 127,FALSE
+fx-pad-5-right,95 18,5,127,TRUE,Note On C0 Velocity 127,FALSE
+fx-pad-6-right,95 19,5,127,TRUE,Note On C#0 Velocity 127,FALSE
+fx-pad-7-right,95 1A,5,127,TRUE,Note On D0 Velocity 127,FALSE
+fx-pad-8-right,95 1B,5,127,TRUE,Note On D#0 Velocity 127,FALSE
+loop-left,94 40,5,127,TRUE,Note on E3 Velocity 127,FALSE
+loop-right,95 40,5,127,TRUE,Note on E3 Velocity 127,FALSE

@@ -10,8 +10,10 @@ easy = 'parsedataeasy.csv'
 medium = 'parsedatamedium.csv'
 hard = 'parsedatahard.csv'
 nonsync = 'parsedataasync.csv'
+long = 'mididatatestlong.csv'
+fxpads = 'fxpadsmididata.csv'
 
-select = easy
+select = fxpads
 data = 'midi\{}'.format(select)
 df = pd.read_csv(data, header=None, names=columns)
 df2 = pd.read_csv('midiDict.csv')
@@ -37,7 +39,10 @@ class midiEvent:
 		{"midi-item-value": self.value},
 		{"midi-item-length": self.length},
 		]
-		print("|", len(event_array), "|", self.name, "|", self.hex,"|", self.time, "|", self.booleon, "|", self.value[0], "|", self.value[len(self.value)-1], "|", len(self.value), "|")
+		if isinstance(self.value, list) == True:
+			print("|", len(event_array), "|", self.name, "|", self.hex,"|", self.time, "|", self.booleon, "|", self.value[0], "|", self.value[len(self.value)-1], "|", len(self.value), "|")
+		else:
+			print("|", len(event_array), "|", self.name, "|", self.hex,"|", self.time, "|", self.booleon, "|", self.value, "|", "---", "|", "---", "|")
 		event_array.append(event)
 
 def createEventClass(event_name, event_code, event_hex, event_channel, event_booleon, event_time, event_values, event_length):
@@ -70,6 +75,8 @@ for count, x in enumerate(df.index):
 			tick_active = df['active'][count]
 			event_values = []
 
+
+
 			
 			if event_booleon == False and event_active == False and tick_active == False:
 				df2.at[count2, 'active'] = True
@@ -98,7 +105,7 @@ for count, x in enumerate(df.index):
 
 			elif event_booleon == True:
 				event_value = df['value'][count]
-				createEventClass(event_name, event_code, event_hex, event_channel, event_booleon, event_time, event_value, len(event_value))
+				createEventClass(event_name, event_code, event_hex, event_channel, event_booleon, event_time, event_value, event_value)
 
 # print("===============================================================================")
 # print("===================================EVENT ARRAY====================================")
