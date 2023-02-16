@@ -57,7 +57,7 @@ class World {
         })
 
         let plane = createPlane();
-        let fxBar = createFxBar();
+        let fxBar = createFxBar({clock:clock});
         // Light Instance, with optional light helper
         const { light } = createLights("purple");
 
