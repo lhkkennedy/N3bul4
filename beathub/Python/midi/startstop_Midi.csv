@@ -1,5 +1,5 @@
-0,08:15:04.305,out,Note on C-2 Velocity 127,1,127,90 00 7F 
-1,08:15:04.475,out,Note off C-2 Velocity 0,1,0,80 00 00 
-2,08:15:04.666,out,Note on C-2 Velocity 127,2,127,91 00 7F 
-3,08:15:04.756,out,Note off C-2 Velocity 0,2,0,81 00 00 
-
+0,08:15:04.305,out,Note on C-2 Velocity 127,1,127,90 00 7F ,FALSE
+1,08:15:04.475,out,Note off C-2 Velocity 0,1,0,80 00 00 ,FALSE
+2,08:15:04.666,out,Note on C-2 Velocity 127,2,127,91 00 7F ,FALSE
+3,08:15:04.756,out,Note off C-2 Velocity 0,2,0,81 00 00 ,FALSE
+
