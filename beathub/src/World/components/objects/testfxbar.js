@@ -1,7 +1,22 @@
 import { PlaneGeometry, MeshStandardMaterial, Mesh } from "three";
 // import data from "../../../../Python/midi/";
-function fxfunction(plane) {
-  plane.material.color = new MeshStandardMaterial({ color: 0x000000 });
+function fxfunctionSelect(fxbar, geometry, data) {
+  const midiEventName = data['midi-item-name']
+  console.log(data)
+  if (midiEventName == 'start-stop-left-keydown'){  
+    fxbar.material.color.setHex( 0xC3B865 )
+    console.log("1")
+  } else if (midiEventName == 'start-stop-left-keyup'){
+    fxbar.material.color.setHex( 0x0E203C )
+    console.log("2")
+  } else if (midiEventName == 'start-stop-right-keydown'){
+    fxbar.material.color.setHex( 0x0D00FF )
+    console.log("3")
+  } else if (midiEventName == 'start-stop-right-keyup'){
+    fxbar.material.color.setHex( 0x00FFAA )
+    console.log("4")
+  }
+  return fxbar
 }
 
 function loadfxtriggers() {
@@ -15,7 +30,6 @@ function loadfxtriggers() {
     let seconds = Number(timebites[2]) + Number(minutes * 60);
     fxtriggers.push(seconds);
   }
-  console.log(fxtriggers);
   return fxtriggers;
 }
 
@@ -60,32 +74,31 @@ const data = [
 
 export default function createFxBar(props) {
   const geometry = new PlaneGeometry(2, 8);
-  const material = new MeshStandardMaterial({ color: 0x530000 });
-  const plane = new Mesh(geometry, material);
-  // plane corodinates x  y  z  ->
-  plane.position.set(0, 8, 2);
-  plane.rotation.z -= Math.PI * 0.5;
+  const material = new MeshStandardMaterial({ color: 0x000000 });
+  const fxbar = new Mesh(geometry, material);
+  // fxbar corodinates x  y  z  ->
+  fxbar.position.set(0, 8, 24);
+  fxbar.rotation.z -= Math.PI * 0.5;
 
-  console.log(plane.material.color);
+  console.log(fxbar.material.color);
 
   let clock = props.clock;
 
   const fxtriggers = loadfxtriggers();
 
-  plane.tick = () => {
+  fxbar.tick = () => {
     for (var a = 0; a < fxtriggers.length; a++) {
       let trigger = fxtriggers[a];
       if (
         (trigger < clock.elapsedTime) &
         (data[a]["midi-item-active"] == "False")
       ) {
-        console.log("fx triggered" + fxtriggers[a]);
         data[a]["midi-item-active"] = "True";
-        fxfunction(plane);
+        fxfunctionSelect(fxbar, geometry, data[a]);
       }
     }
   };
-  return plane;
+  return fxbar;
 }
 
 export { createFxBar };
