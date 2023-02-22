@@ -14,7 +14,7 @@ long = 'mididatatestlong.csv'
 fxpads = 'fxpadsmididata.csv'
 startstop = 'startstop_Midi.csv'
 
-select = easy
+select = fxpads
 data = 'midi\{}'.format(select)
 df = pd.read_csv(data, header=None, names=columns)
 df2 = pd.read_csv('midiDict.csv')
@@ -31,6 +31,7 @@ class midiEvent:
 		self.length = length
 
 	def add_new_event(self):
+
 		if isinstance(self.value, list) == True:
 			value_string='['
 			for count, x in enumerate(event_values):
@@ -77,7 +78,7 @@ for count, x in enumerate(df.index):
 			event_active = df2['active'][count2]
 			tick_active = df['active'][count]
 			event_values = []
-			
+
 			if event_booleon == False and event_active == False and tick_active == False:
 				df2.at[count2, 'active'] = True
 				# start new event tracking
@@ -121,3 +122,4 @@ for x in event_array:
 	json_string += x+','
 json_string = json_string[:-1]+']'
 print(json_string)
+

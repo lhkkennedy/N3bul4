@@ -1,0 +1,841 @@
+0,22:51:29.736,out,Note on C#-2 Velocity 127,4,127,93 01 7F 
+1,22:51:29.915,out,Note off C#-2 Velocity 0,4,0,83 01 00 
+2,22:51:30.163,out,Note on C#-2 Velocity 127,1,127,90 01 7F 
+3,22:51:30.364,out,Note off C#-2 Velocity 0,1,0,80 01 00 
+4,22:51:30.834,out,Note on D-2 Velocity 127,4,127,93 02 7F 
+5,22:51:31.046,out,Note off D-2 Velocity 0,4,0,83 02 00 
+6,22:51:31.283,out,Note on D-2 Velocity 127,1,127,90 02 7F 
+7,22:51:31.425,out,Note off D-2 Velocity 0,1,0,80 02 00 
+8,22:51:33.595,out,Note on G#-1 Velocity 127,8,127,97 14 7F 
+9,22:51:33.774,out,Note off G#-1 Velocity 0,8,0,87 14 00 
+10,22:51:33.965,out,Note on G#-1 Velocity 127,5,127,94 14 7F 
+11,22:51:34.155,out,Note off G#-1 Velocity 0,5,0,84 14 00 
+12,22:51:34.206,out,Note on A-1 Velocity 127,8,127,97 15 7F 
+13,22:51:34.376,out,Note off A-1 Velocity 0,8,0,87 15 00 
+14,22:51:34.425,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+15,22:51:34.655,out,Note on A#-1 Velocity 127,8,127,97 16 7F 
+16,22:51:34.683,out,Note off A-1 Velocity 0,5,0,84 15 00 
+17,22:51:34.825,out,Note off A#-1 Velocity 0,8,0,87 16 00 
+18,22:51:35.015,out,Note on G-2 Velocity 127,8,127,97 07 7F 
+19,22:51:35.184,out,Note off G-2 Velocity 0,8,0,87 07 00 
+20,22:51:35.363,out,Note on C#-1 Velocity 127,5,127,94 0D 7F 
+21,22:51:35.574,out,Note on B-2 Velocity 127,8,127,97 0B 7F 
+22,22:51:35.675,out,Note off C#-1 Velocity 0,5,0,84 0D 00 
+23,22:51:35.764,out,Note off B-2 Velocity 0,8,0,87 0B 00 
+24,22:51:35.914,out,Note on G-2 Velocity 127,5,127,94 07 7F 
+25,22:51:36.183,out,Note off G-2 Velocity 0,5,0,84 07 00 
+26,22:51:36.225,out,Note on C#-1 Velocity 127,8,127,97 0D 7F 
+27,22:51:36.414,out,Note off C#-1 Velocity 0,8,0,87 0D 00 
+28,22:51:36.613,out,Note on C-2 Velocity 127,5,127,94 00 7F 
+29,22:51:36.943,out,Note off C-2 Velocity 0,5,0,84 00 00 
+30,22:51:37.095,out,Note on D#0 Velocity 127,8,127,97 1B 7F 
+31,22:51:37.335,out,Note off D#0 Velocity 0,8,0,87 1B 00 
+32,22:51:37.384,out,Note on C0 Velocity 127,5,127,94 18 7F 
+33,22:51:37.604,out,Note on D0 Velocity 127,8,127,97 1A 7F 
+34,22:51:37.623,out,Note off C0 Velocity 0,5,0,84 18 00 
+35,22:51:37.792,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+36,22:51:37.803,out,Note on C#0 Velocity 127,5,127,94 19 7F 
+37,22:51:37.804,out,Note off D0 Velocity 0,8,0,87 1A 00 
+38,22:51:38.012,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+39,22:51:38.033,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+40,22:51:38.035,out,Note on C#0 Velocity 127,8,127,97 19 7F 
+41,22:51:38.047,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+42,22:51:38.063,out,Note off C#0 Velocity 0,5,0,84 19 00 
+43,22:51:38.078,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+44,22:51:38.205,out,Note off C#0 Velocity 0,8,0,87 19 00 
+45,22:51:38.235,out,Note on D0 Velocity 127,5,127,94 1A 7F 
+46,22:51:38.252,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+47,22:51:38.445,out,Note on A#-1 Velocity 127,8,127,97 16 7F 
+48,22:51:38.473,out,Note off D0 Velocity 0,5,0,84 1A 00 
+49,22:51:38.666,out,Note off A#-1 Velocity 0,8,0,87 16 00 
+50,22:51:38.673,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+51,22:51:38.753,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+52,22:51:38.781,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+53,22:51:39.085,out,Note off A-1 Velocity 0,5,0,84 15 00 
+54,22:51:39.855,out,Note on E3 Velocity 127,8,127,97 40 7F 
+55,22:51:40.037,out,Note off E3 Velocity 0,8,0,87 40 00 
+56,22:51:40.666,out,Note on E3 Velocity 127,5,127,94 40 7F 
+57,22:51:40.846,out,Note off E3 Velocity 0,5,0,84 40 00 
+58,22:51:59.546,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+59,22:52:00.194,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+60,22:52:38.161,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+61,22:52:38.163,out,Note on F#-2 Velocity 127,4,127,93 06 7F 
+62,22:52:38.164,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+63,22:52:38.170,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+64,22:52:38.173,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+65,22:52:38.176,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+66,22:52:38.179,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+67,22:52:38.183,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+68,22:52:38.187,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+69,22:52:38.190,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+70,22:52:38.192,out,Controller Data Entry (coarse): 124,4,124,B3 06 7C 
+71,22:52:38.195,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+72,22:52:38.199,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+73,22:52:38.201,out,Controller Data Entry (coarse): 124,4,124,B3 06 7C 
+74,22:52:38.204,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+75,22:52:38.207,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+76,22:52:38.210,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+77,22:52:38.213,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+78,22:52:38.216,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+79,22:52:38.221,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+80,22:52:38.223,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+81,22:52:38.225,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+82,22:52:38.228,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+83,22:52:38.233,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+84,22:52:38.235,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+85,22:52:38.238,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+86,22:52:38.241,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+87,22:52:38.244,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+88,22:52:38.247,out,Controller Data Entry (coarse): 125,4,125,B3 06 7D 
+89,22:52:38.250,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+90,22:52:38.253,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+91,22:52:38.256,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+92,22:52:38.259,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+93,22:52:38.262,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+94,22:52:38.265,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+95,22:52:38.268,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+96,22:52:38.271,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+97,22:52:38.274,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+98,22:52:38.278,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+99,22:52:38.281,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+100,22:52:38.284,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+101,22:52:38.287,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+102,22:52:38.290,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+103,22:52:38.293,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+104,22:52:38.296,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+105,22:52:38.299,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+106,22:52:38.302,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+107,22:52:38.303,out,Note off F#-2 Velocity 0,4,0,93 06 00 
+108,22:52:38.305,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+109,22:52:38.308,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+110,22:52:38.311,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+111,22:52:38.314,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+112,22:52:38.317,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+113,22:52:38.321,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+114,22:52:38.324,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+115,22:52:38.327,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+116,22:52:38.330,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+117,22:52:38.333,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+118,22:52:38.336,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+119,22:52:38.339,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+120,22:52:38.342,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+121,22:52:38.345,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+122,22:52:38.348,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+123,22:52:38.354,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+124,22:52:38.360,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+125,22:52:38.367,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+126,22:52:38.373,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+127,22:52:38.379,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+128,22:52:38.382,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+129,22:52:38.385,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+130,22:52:38.388,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+131,22:52:38.391,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+132,22:52:38.394,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+133,22:52:38.400,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+134,22:52:38.403,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+135,22:52:38.409,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+136,22:52:38.414,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+137,22:52:38.415,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+138,22:52:38.418,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+139,22:52:38.425,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+140,22:52:38.428,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+141,22:52:38.431,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+142,22:52:38.434,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+143,22:52:38.440,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+144,22:52:38.443,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+145,22:52:38.449,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+146,22:52:38.452,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+147,22:52:38.458,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+148,22:52:38.461,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+149,22:52:38.469,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+150,22:52:38.471,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+151,22:52:38.473,out,Note on F#-2 Velocity 127,4,127,93 06 7F 
+152,22:52:38.479,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+153,22:52:38.480,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+154,22:52:38.488,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+155,22:52:38.489,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+156,22:52:38.500,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+157,22:52:38.502,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+158,22:52:38.509,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+159,22:52:38.513,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+160,22:52:38.522,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+161,22:52:38.523,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+162,22:52:38.524,out,Controller 22: 70,4,70,B3 16 46 
+163,22:52:38.531,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+164,22:52:38.535,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+165,22:52:38.544,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+166,22:52:38.547,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+167,22:52:38.557,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+168,22:52:38.560,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+169,22:52:38.569,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+170,22:52:38.574,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+171,22:52:38.578,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+172,22:52:38.584,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+173,22:52:38.587,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+174,22:52:38.590,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+175,22:52:38.593,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+176,22:52:38.597,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+177,22:52:38.599,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+178,22:52:38.602,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+179,22:52:38.609,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+180,22:52:38.612,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+181,22:52:38.615,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+182,22:52:38.621,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+183,22:52:38.624,out,Controller 22: 69,4,69,B3 16 45 
+184,22:52:38.628,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+185,22:52:38.630,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+186,22:52:38.631,out,Controller 22: 67,4,67,B3 16 43 
+187,22:52:38.638,out,Controller Data Entry (coarse): 126,4,126,B3 06 7E 
+188,22:52:38.639,out,Controller 22: 66,4,66,B3 16 42 
+189,22:52:38.642,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+190,22:52:38.647,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+191,22:52:38.649,out,Controller 22: 65,4,65,B3 16 41 
+192,22:52:38.656,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+193,22:52:38.658,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+194,22:52:38.661,out,Controller 22: 64,4,64,B3 16 40 
+195,22:52:38.666,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+196,22:52:38.673,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+197,22:52:38.693,out,Note on G-2 Velocity 127,16,127,9F 07 7F 
+198,22:52:38.716,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+199,22:52:38.740,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+200,22:52:38.757,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+201,22:52:38.757,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+202,22:52:38.772,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+203,22:52:38.772,out,Note on F#-2 Velocity 127,1,127,90 06 7F 
+204,22:52:38.788,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+205,22:52:38.788,out,Note off G-2 Velocity 0,16,0,8F 07 00 
+206,22:52:38.802,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+207,22:52:38.803,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+208,22:52:38.803,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+209,22:52:38.803,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+210,22:52:38.819,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+211,22:52:38.819,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+212,22:52:38.819,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+213,22:52:38.819,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+214,22:52:38.819,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+215,22:52:38.835,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+216,22:52:38.835,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+217,22:52:38.843,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+218,22:52:38.843,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+219,22:52:38.843,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+220,22:52:38.851,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+221,22:52:38.858,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+222,22:52:38.859,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+223,22:52:38.866,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+224,22:52:38.866,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+225,22:52:38.867,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+226,22:52:38.913,out,Note on G-2 Velocity 127,16,127,9F 07 7F 
+227,22:52:38.914,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+228,22:52:38.914,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+229,22:52:38.914,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+230,22:52:38.930,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+231,22:52:38.945,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+232,22:52:38.945,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+233,22:52:38.945,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+234,22:52:38.961,out,Note off F#-2 Velocity 0,1,0,90 06 00 
+235,22:52:38.976,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+236,22:52:38.984,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+237,22:52:38.992,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+238,22:52:39.025,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+239,22:52:39.190,out,Controller Effect Control 1 (coarse): 110,16,110,BF 0C 6E 
+240,22:52:39.230,out,Controller Effect Control 1 (coarse): 111,16,111,BF 0C 6F 
+241,22:52:39.306,out,Controller Effect Control 1 (coarse): 112,16,112,BF 0C 70 
+242,22:52:39.409,out,Controller Data Entry (coarse): 127,4,127,B3 06 7F 
+243,22:52:40.377,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+244,22:52:40.424,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+245,22:52:40.560,out,Controller Data Entry (coarse): 1,4,1,B3 06 01 
+246,22:52:40.631,out,Note on F#-2 Velocity 127,1,127,90 06 7F 
+247,22:52:40.642,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+248,22:52:40.687,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+249,22:52:40.687,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+250,22:52:40.687,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+251,22:52:40.687,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+252,22:52:40.687,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+253,22:52:40.703,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+254,22:52:40.703,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+255,22:52:40.719,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+256,22:52:40.846,out,Note off F#-2 Velocity 0,1,0,90 06 00 
+257,22:52:41.702,out,Controller Effect Control 1 (coarse): 113,16,113,BF 0C 71 
+258,22:53:45.712,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+259,22:53:45.840,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+260,22:53:45.941,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+261,22:53:46.031,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+262,22:53:46.141,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+263,22:53:46.191,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+264,22:53:46.291,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+265,22:53:46.352,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+266,22:53:46.441,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+267,22:53:46.511,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+268,22:53:46.591,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+269,22:53:46.651,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+270,22:53:46.751,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+271,22:53:46.831,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+272,22:53:49.881,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+273,22:53:49.982,out,Note off A-1 Velocity 0,6,0,85 15 00 
+274,22:53:50.122,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+275,22:53:50.262,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+276,22:53:50.372,out,Note on D0 Velocity 127,6,127,95 1A 7F 
+277,22:53:50.511,out,Note off D0 Velocity 0,6,0,85 1A 00 
+278,22:53:50.611,out,Note on C#0 Velocity 127,6,127,95 19 7F 
+279,22:53:50.802,out,Note off C#0 Velocity 0,6,0,85 19 00 
+280,22:53:50.900,out,Note on C0 Velocity 127,6,127,95 18 7F 
+281,22:53:51.121,out,Note off C0 Velocity 0,6,0,85 18 00 
+282,22:53:51.472,out,Note on D#0 Velocity 127,6,127,95 1B 7F 
+283,22:53:51.642,out,Note off D#0 Velocity 0,6,0,85 1B 00 
+284,22:53:51.770,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+285,22:53:51.952,out,Note off B-1 Velocity 0,6,0,85 17 00 
+286,22:53:52.073,out,Note on B-2 Velocity 127,6,127,95 0B 7F 
+287,22:53:52.271,out,Note off B-2 Velocity 0,6,0,85 0B 00 
+288,22:53:52.393,out,Note on G-2 Velocity 127,6,127,95 07 7F 
+289,22:53:52.602,out,Note off G-2 Velocity 0,6,0,85 07 00 
+290,22:53:52.732,out,Note on C#-1 Velocity 127,6,127,95 0D 7F 
+291,22:53:52.953,out,Note off C#-1 Velocity 0,6,0,85 0D 00 
+292,22:53:53.051,out,Note on C#-1 Velocity 127,6,127,95 0D 7F 
+293,22:53:53.263,out,Note off C#-1 Velocity 0,6,0,85 0D 00 
+294,22:53:53.393,out,Note on C-2 Velocity 127,6,127,95 00 7F 
+295,22:53:53.592,out,Note off C-2 Velocity 0,6,0,85 00 00 
+296,22:53:53.683,out,Note on C-2 Velocity 127,6,127,95 00 7F 
+297,22:53:53.832,out,Note off C-2 Velocity 0,6,0,85 00 00 
+298,22:53:54.371,out,Note on D#0 Velocity 127,5,127,94 1B 7F 
+299,22:53:54.407,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+300,22:53:54.440,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+301,22:53:54.580,out,Note off D#0 Velocity 0,5,0,84 1B 00 
+302,22:53:54.635,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+303,22:53:54.736,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+304,22:53:54.762,out,Note on D0 Velocity 127,5,127,94 1A 7F 
+305,22:53:54.960,out,Note off D0 Velocity 0,5,0,84 1A 00 
+306,22:53:55.130,out,Note on A#-1 Velocity 127,5,127,94 16 7F 
+307,22:53:55.339,out,Note off A#-1 Velocity 0,5,0,84 16 00 
+308,22:53:55.491,out,Note on C#0 Velocity 127,5,127,94 19 7F 
+309,22:53:55.680,out,Note off C#0 Velocity 0,5,0,84 19 00 
+310,22:53:55.801,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+311,22:53:56.029,out,Note off A-1 Velocity 0,5,0,84 15 00 
+312,22:53:56.441,out,Note on C0 Velocity 127,5,127,94 18 7F 
+313,22:53:56.490,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+314,22:53:56.569,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+315,22:53:56.620,out,Note off C0 Velocity 0,5,0,84 18 00 
+316,22:53:56.922,out,Note on C#-1 Velocity 127,5,127,94 0D 7F 
+317,22:53:57.121,out,Note off C#-1 Velocity 0,5,0,84 0D 00 
+318,22:53:57.349,out,Note on C-2 Velocity 127,5,127,94 00 7F 
+319,22:53:57.353,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+320,22:53:57.372,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+321,22:53:57.552,out,Note off C-2 Velocity 0,5,0,84 00 00 
+322,22:53:57.741,out,Note on G#-1 Velocity 127,5,127,94 14 7F 
+323,22:53:57.803,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+324,22:53:57.857,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+325,22:53:57.864,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+326,22:53:57.891,out,Note off G#-1 Velocity 0,5,0,84 14 00 
+327,22:53:57.904,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+328,22:53:57.926,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+329,22:53:58.342,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+330,22:53:58.360,out,Note on B-2 Velocity 127,5,127,94 0B 7F 
+331,22:53:58.376,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+332,22:53:58.480,out,Note off B-2 Velocity 0,5,0,84 0B 00 
+333,22:53:58.611,out,Note on B-1 Velocity 127,5,127,94 17 7F 
+334,22:53:58.722,out,Note off B-1 Velocity 0,5,0,84 17 00 
+335,22:53:58.921,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+336,22:53:58.926,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+337,22:53:58.929,out,Note on D#0 Velocity 127,5,127,94 1B 7F 
+338,22:53:58.950,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+339,22:53:58.951,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+340,22:53:58.980,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+341,22:53:58.980,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+342,22:53:59.021,out,Note off D#0 Velocity 0,5,0,84 1B 00 
+343,22:53:59.026,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+344,22:53:59.033,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+345,22:53:59.732,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+346,22:53:59.740,out,Note on E3 Velocity 127,5,127,94 40 7F 
+347,22:53:59.743,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+348,22:53:59.791,out,Note off E3 Velocity 0,5,0,84 40 00 
+349,22:53:59.933,out,Note on E3 Velocity 127,5,127,94 40 7F 
+350,22:53:59.992,out,Note off E3 Velocity 0,5,0,84 40 00 
+351,22:54:00.354,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+352,22:54:00.363,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+353,22:54:00.370,out,Note on A#-1 Velocity 127,5,127,94 16 7F 
+354,22:54:00.394,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+355,22:54:00.630,out,Note off A#-1 Velocity 0,5,0,84 16 00 
+356,22:54:00.809,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+357,22:54:00.982,out,Note off A-1 Velocity 0,5,0,84 15 00 
+358,22:54:01.049,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+359,22:54:01.169,out,Note off A-1 Velocity 0,5,0,84 15 00 
+360,22:54:01.251,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+361,22:54:01.349,out,Note off A-1 Velocity 0,5,0,84 15 00 
+362,22:54:01.440,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+363,22:54:01.529,out,Note off A-1 Velocity 0,5,0,84 15 00 
+364,22:54:01.621,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+365,22:54:01.740,out,Note off A-1 Velocity 0,5,0,84 15 00 
+366,22:54:01.982,out,Note on G#-1 Velocity 127,5,127,94 14 7F 
+367,22:54:02.171,out,Note off G#-1 Velocity 0,5,0,84 14 00 
+368,22:54:02.381,out,Note on C0 Velocity 127,5,127,94 18 7F 
+369,22:54:02.581,out,Note off C0 Velocity 0,5,0,84 18 00 
+370,22:54:03.222,out,Note on E3 Velocity 127,5,127,94 40 7F 
+371,22:54:03.350,out,Note off E3 Velocity 0,5,0,84 40 00 
+372,22:54:03.401,out,Note on E3 Velocity 127,5,127,94 40 7F 
+373,22:54:03.482,out,Note off E3 Velocity 0,5,0,84 40 00 
+374,22:54:03.571,out,Note on E3 Velocity 127,5,127,94 40 7F 
+375,22:54:03.652,out,Note off E3 Velocity 0,5,0,84 40 00 
+376,22:54:03.692,out,Note on E3 Velocity 127,5,127,94 40 7F 
+377,22:54:03.802,out,Note off E3 Velocity 0,5,0,84 40 00 
+378,22:54:04.350,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+379,22:54:04.560,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+380,22:54:04.701,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+381,22:54:04.833,out,Note off A-1 Velocity 0,6,0,85 15 00 
+382,22:54:04.963,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+383,22:54:05.002,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+384,22:54:05.060,out,Note off A-1 Velocity 0,6,0,85 15 00 
+385,22:54:05.141,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+386,22:54:05.262,out,Note on G-2 Velocity 127,6,127,95 07 7F 
+387,22:54:05.441,out,Note off G-2 Velocity 0,6,0,85 07 00 
+388,22:54:05.533,out,Note on C#-1 Velocity 127,6,127,95 0D 7F 
+389,22:54:05.664,out,Note off C#-1 Velocity 0,6,0,85 0D 00 
+390,22:54:05.761,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+391,22:54:05.901,out,Note off A-1 Velocity 0,6,0,85 15 00 
+392,22:54:06.178,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+393,22:54:06.181,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+394,22:54:06.213,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+395,22:54:06.280,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+396,22:54:06.380,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+397,22:54:06.382,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+398,22:54:06.414,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+399,22:54:06.483,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+400,22:54:06.783,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+401,22:54:06.793,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+402,22:54:06.812,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+403,22:54:06.891,out,Note off A-1 Velocity 0,6,0,85 15 00 
+404,22:54:07.178,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+405,22:54:07.190,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+406,22:54:07.231,out,Controller Data Entry (coarse): 127,2,127,B1 06 7F 
+407,22:54:07.281,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+408,22:54:07.516,out,Controller Data Entry (coarse): 1,2,1,B1 06 01 
+409,22:54:07.542,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+410,22:54:07.621,out,Note off A-1 Velocity 0,6,0,85 15 00 
+411,22:54:07.852,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+412,22:54:07.932,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+413,22:54:08.030,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+414,22:54:08.102,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+415,22:54:08.342,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+416,22:54:08.401,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+417,22:54:08.522,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+418,22:54:08.591,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+419,22:54:08.831,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+420,22:54:08.880,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+421,22:54:09.032,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+422,22:54:09.101,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+423,22:54:09.321,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+424,22:54:09.381,out,Note off B-1 Velocity 0,6,0,85 17 00 
+425,22:54:09.521,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+426,22:54:09.582,out,Note off B-1 Velocity 0,6,0,85 17 00 
+427,22:54:09.992,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+428,22:54:10.031,out,Note off B-1 Velocity 0,6,0,85 17 00 
+429,22:54:10.263,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+430,22:54:10.301,out,Note off B-1 Velocity 0,6,0,85 17 00 
+431,22:54:10.441,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+432,22:54:10.501,out,Note off B-1 Velocity 0,6,0,85 17 00 
+433,22:54:10.711,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+434,22:54:10.742,out,Note off B-1 Velocity 0,6,0,85 17 00 
+435,22:54:10.872,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+436,22:54:10.931,out,Note off B-1 Velocity 0,6,0,85 17 00 
+437,22:54:11.172,out,Note on B-2 Velocity 127,6,127,95 0B 7F 
+438,22:54:11.242,out,Note off B-2 Velocity 0,6,0,85 0B 00 
+439,22:54:11.493,out,Note on G-2 Velocity 127,6,127,95 07 7F 
+440,22:54:11.594,out,Note off G-2 Velocity 0,6,0,85 07 00 
+441,22:54:11.851,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+442,22:54:11.856,out,Controller Balance (coarse): 46,2,46,B1 08 2E 
+443,22:54:11.856,out,Controller Balance (coarse): 48,2,48,B1 08 30 
+444,22:54:11.860,out,Controller Balance (coarse): 50,2,50,B1 08 32 
+445,22:54:11.860,out,Controller Balance (coarse): 53,2,53,B1 08 35 
+446,22:54:11.863,out,Controller Balance (coarse): 56,2,56,B1 08 38 
+447,22:54:11.864,out,Controller Balance (coarse): 59,2,59,B1 08 3B 
+448,22:54:11.869,out,Controller Balance (coarse): 61,2,61,B1 08 3D 
+449,22:54:11.869,out,Controller Balance (coarse): 64,2,64,B1 08 40 
+450,22:54:11.873,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+451,22:54:11.880,out,Controller Balance (coarse): 70,2,70,B1 08 46 
+452,22:54:11.881,out,Controller Balance (coarse): 73,2,73,B1 08 49 
+453,22:54:11.883,out,Controller Balance (coarse): 78,2,78,B1 08 4E 
+454,22:54:11.884,out,Controller Balance (coarse): 82,2,82,B1 08 52 
+455,22:54:11.888,out,Controller Balance (coarse): 85,2,85,B1 08 55 
+456,22:54:11.888,out,Controller Balance (coarse): 90,2,90,B1 08 5A 
+457,22:54:11.893,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+458,22:54:11.894,out,Controller Balance (coarse): 96,2,96,B1 08 60 
+459,22:54:11.898,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+460,22:54:11.899,out,Controller Balance (coarse): 102,2,102,B1 08 66 
+461,22:54:11.904,out,Controller Balance (coarse): 104,2,104,B1 08 68 
+462,22:54:11.904,out,Controller Balance (coarse): 107,2,107,B1 08 6B 
+463,22:54:11.908,out,Controller Balance (coarse): 110,2,110,B1 08 6E 
+464,22:54:11.908,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+465,22:54:11.914,out,Controller Balance (coarse): 118,2,118,B1 08 76 
+466,22:54:11.914,out,Controller Balance (coarse): 121,2,121,B1 08 79 
+467,22:54:11.917,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+468,22:54:11.918,out,Controller Balance (coarse): 125,2,125,B1 08 7D 
+469,22:54:11.924,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+470,22:54:11.951,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+471,22:54:11.951,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+472,22:54:12.163,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+473,22:54:12.165,out,Controller Balance (coarse): 46,2,46,B1 08 2E 
+474,22:54:12.165,out,Controller Balance (coarse): 48,2,48,B1 08 30 
+475,22:54:12.169,out,Controller Balance (coarse): 50,2,50,B1 08 32 
+476,22:54:12.170,out,Controller Balance (coarse): 53,2,53,B1 08 35 
+477,22:54:12.173,out,Controller Balance (coarse): 56,2,56,B1 08 38 
+478,22:54:12.174,out,Controller Balance (coarse): 59,2,59,B1 08 3B 
+479,22:54:12.180,out,Controller Balance (coarse): 61,2,61,B1 08 3D 
+480,22:54:12.180,out,Controller Balance (coarse): 64,2,64,B1 08 40 
+481,22:54:12.183,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+482,22:54:12.190,out,Controller Balance (coarse): 70,2,70,B1 08 46 
+483,22:54:12.191,out,Controller Balance (coarse): 73,2,73,B1 08 49 
+484,22:54:12.193,out,Controller Balance (coarse): 78,2,78,B1 08 4E 
+485,22:54:12.194,out,Controller Balance (coarse): 82,2,82,B1 08 52 
+486,22:54:12.199,out,Controller Balance (coarse): 85,2,85,B1 08 55 
+487,22:54:12.199,out,Controller Balance (coarse): 90,2,90,B1 08 5A 
+488,22:54:12.203,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+489,22:54:12.204,out,Controller Balance (coarse): 96,2,96,B1 08 60 
+490,22:54:12.210,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+491,22:54:12.210,out,Controller Balance (coarse): 102,2,102,B1 08 66 
+492,22:54:12.211,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+493,22:54:12.211,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+494,22:54:12.341,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+495,22:54:12.344,out,Controller Balance (coarse): 46,2,46,B1 08 2E 
+496,22:54:12.344,out,Controller Balance (coarse): 48,2,48,B1 08 30 
+497,22:54:12.349,out,Controller Balance (coarse): 50,2,50,B1 08 32 
+498,22:54:12.349,out,Controller Balance (coarse): 53,2,53,B1 08 35 
+499,22:54:12.353,out,Controller Balance (coarse): 56,2,56,B1 08 38 
+500,22:54:12.354,out,Controller Balance (coarse): 59,2,59,B1 08 3B 
+501,22:54:12.358,out,Controller Balance (coarse): 61,2,61,B1 08 3D 
+502,22:54:12.358,out,Controller Balance (coarse): 64,2,64,B1 08 40 
+503,22:54:12.363,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+504,22:54:12.368,out,Controller Balance (coarse): 70,2,70,B1 08 46 
+505,22:54:12.368,out,Controller Balance (coarse): 73,2,73,B1 08 49 
+506,22:54:12.373,out,Controller Balance (coarse): 78,2,78,B1 08 4E 
+507,22:54:12.373,out,Controller Balance (coarse): 82,2,82,B1 08 52 
+508,22:54:12.378,out,Controller Balance (coarse): 85,2,85,B1 08 55 
+509,22:54:12.378,out,Controller Balance (coarse): 90,2,90,B1 08 5A 
+510,22:54:12.383,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+511,22:54:12.384,out,Controller Balance (coarse): 96,2,96,B1 08 60 
+512,22:54:12.389,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+513,22:54:12.389,out,Controller Balance (coarse): 102,2,102,B1 08 66 
+514,22:54:12.394,out,Controller Balance (coarse): 104,2,104,B1 08 68 
+515,22:54:12.394,out,Controller Balance (coarse): 107,2,107,B1 08 6B 
+516,22:54:12.399,out,Controller Balance (coarse): 110,2,110,B1 08 6E 
+517,22:54:12.399,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+518,22:54:12.404,out,Controller Balance (coarse): 118,2,118,B1 08 76 
+519,22:54:12.404,out,Controller Balance (coarse): 121,2,121,B1 08 79 
+520,22:54:12.407,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+521,22:54:12.407,out,Controller Balance (coarse): 125,2,125,B1 08 7D 
+522,22:54:12.414,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+523,22:54:12.431,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+524,22:54:12.431,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+525,22:54:12.623,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+526,22:54:12.625,out,Controller Balance (coarse): 46,2,46,B1 08 2E 
+527,22:54:12.625,out,Controller Balance (coarse): 48,2,48,B1 08 30 
+528,22:54:12.629,out,Controller Balance (coarse): 50,2,50,B1 08 32 
+529,22:54:12.629,out,Controller Balance (coarse): 53,2,53,B1 08 35 
+530,22:54:12.634,out,Controller Balance (coarse): 56,2,56,B1 08 38 
+531,22:54:12.635,out,Controller Balance (coarse): 59,2,59,B1 08 3B 
+532,22:54:12.638,out,Controller Balance (coarse): 61,2,61,B1 08 3D 
+533,22:54:12.639,out,Controller Balance (coarse): 64,2,64,B1 08 40 
+534,22:54:12.643,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+535,22:54:12.648,out,Controller Balance (coarse): 70,2,70,B1 08 46 
+536,22:54:12.648,out,Controller Balance (coarse): 73,2,73,B1 08 49 
+537,22:54:12.654,out,Controller Balance (coarse): 78,2,78,B1 08 4E 
+538,22:54:12.654,out,Controller Balance (coarse): 82,2,82,B1 08 52 
+539,22:54:12.658,out,Controller Balance (coarse): 85,2,85,B1 08 55 
+540,22:54:12.659,out,Controller Balance (coarse): 90,2,90,B1 08 5A 
+541,22:54:12.663,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+542,22:54:12.664,out,Controller Balance (coarse): 96,2,96,B1 08 60 
+543,22:54:12.668,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+544,22:54:12.668,out,Controller Balance (coarse): 102,2,102,B1 08 66 
+545,22:54:12.674,out,Controller Balance (coarse): 104,2,104,B1 08 68 
+546,22:54:12.674,out,Controller Balance (coarse): 107,2,107,B1 08 6B 
+547,22:54:12.678,out,Controller Balance (coarse): 110,2,110,B1 08 6E 
+548,22:54:12.679,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+549,22:54:12.680,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+550,22:54:12.681,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+551,22:54:12.874,out,Note on C#0 Velocity 127,6,127,95 19 7F 
+552,22:54:12.972,out,Note off C#0 Velocity 0,6,0,85 19 00 
+553,22:54:13.123,out,Note on D0 Velocity 127,6,127,95 1A 7F 
+554,22:54:13.233,out,Note off D0 Velocity 0,6,0,85 1A 00 
+555,22:54:13.431,out,Note on C0 Velocity 127,6,127,95 18 7F 
+556,22:54:13.522,out,Note off C0 Velocity 0,6,0,85 18 00 
+557,22:54:13.701,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+558,22:54:13.712,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+559,22:54:13.712,out,Controller Balance (coarse): 69,2,69,B1 08 45 
+560,22:54:13.718,out,Controller Balance (coarse): 71,2,71,B1 08 47 
+561,22:54:13.718,out,Controller Balance (coarse): 75,2,75,B1 08 4B 
+562,22:54:13.722,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+563,22:54:13.722,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+564,22:54:13.728,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+565,22:54:13.732,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+566,22:54:13.733,out,Controller Balance (coarse): 97,2,97,B1 08 61 
+567,22:54:13.737,out,Controller Balance (coarse): 101,2,101,B1 08 65 
+568,22:54:13.738,out,Controller Balance (coarse): 105,2,105,B1 08 69 
+569,22:54:13.742,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+570,22:54:13.742,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+571,22:54:13.748,out,Controller Balance (coarse): 120,2,120,B1 08 78 
+572,22:54:13.748,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+573,22:54:13.752,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+574,22:54:13.752,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+575,22:54:13.780,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+576,22:54:13.781,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+577,22:54:13.921,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+578,22:54:13.932,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+579,22:54:13.932,out,Controller Balance (coarse): 69,2,69,B1 08 45 
+580,22:54:13.937,out,Controller Balance (coarse): 71,2,71,B1 08 47 
+581,22:54:13.937,out,Controller Balance (coarse): 75,2,75,B1 08 4B 
+582,22:54:13.942,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+583,22:54:13.942,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+584,22:54:13.947,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+585,22:54:13.952,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+586,22:54:13.952,out,Controller Balance (coarse): 97,2,97,B1 08 61 
+587,22:54:13.957,out,Controller Balance (coarse): 101,2,101,B1 08 65 
+588,22:54:13.957,out,Controller Balance (coarse): 105,2,105,B1 08 69 
+589,22:54:13.963,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+590,22:54:13.963,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+591,22:54:13.967,out,Controller Balance (coarse): 120,2,120,B1 08 78 
+592,22:54:13.968,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+593,22:54:13.973,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+594,22:54:13.973,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+595,22:54:13.991,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+596,22:54:13.991,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+597,22:54:14.142,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+598,22:54:14.153,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+599,22:54:14.153,out,Controller Balance (coarse): 69,2,69,B1 08 45 
+600,22:54:14.158,out,Controller Balance (coarse): 71,2,71,B1 08 47 
+601,22:54:14.158,out,Controller Balance (coarse): 75,2,75,B1 08 4B 
+602,22:54:14.163,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+603,22:54:14.163,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+604,22:54:14.168,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+605,22:54:14.174,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+606,22:54:14.174,out,Controller Balance (coarse): 97,2,97,B1 08 61 
+607,22:54:14.177,out,Controller Balance (coarse): 101,2,101,B1 08 65 
+608,22:54:14.177,out,Controller Balance (coarse): 105,2,105,B1 08 69 
+609,22:54:14.183,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+610,22:54:14.183,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+611,22:54:14.187,out,Controller Balance (coarse): 120,2,120,B1 08 78 
+612,22:54:14.187,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+613,22:54:14.193,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+614,22:54:14.193,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+615,22:54:14.231,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+616,22:54:14.231,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+617,22:54:14.960,out,Note on D#0 Velocity 127,5,127,94 1B 7F 
+618,22:54:15.030,out,Note off D#0 Velocity 0,5,0,84 1B 00 
+619,22:54:15.160,out,Note on D#0 Velocity 127,5,127,94 1B 7F 
+620,22:54:15.230,out,Note off D#0 Velocity 0,5,0,84 1B 00 
+621,22:54:15.379,out,Note on B-1 Velocity 127,5,127,94 17 7F 
+622,22:54:15.440,out,Note off B-1 Velocity 0,5,0,84 17 00 
+623,22:54:15.630,out,Note on A#-1 Velocity 127,5,127,94 16 7F 
+624,22:54:15.690,out,Note off A#-1 Velocity 0,5,0,84 16 00 
+625,22:54:15.820,out,Note on A#-1 Velocity 127,5,127,94 16 7F 
+626,22:54:15.880,out,Note off A#-1 Velocity 0,5,0,84 16 00 
+627,22:54:16.071,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+628,22:54:16.140,out,Note off A-1 Velocity 0,5,0,84 15 00 
+629,22:54:16.272,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+630,22:54:16.339,out,Note off A-1 Velocity 0,5,0,84 15 00 
+631,22:54:16.469,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+632,22:54:16.539,out,Note off A-1 Velocity 0,5,0,84 15 00 
+633,22:54:16.702,out,Note on G#-1 Velocity 127,5,127,94 14 7F 
+634,22:54:16.760,out,Note off G#-1 Velocity 0,5,0,84 14 00 
+635,22:54:16.902,out,Note on G#-1 Velocity 127,5,127,94 14 7F 
+636,22:54:16.960,out,Note off G#-1 Velocity 0,5,0,84 14 00 
+637,22:54:17.111,out,Note on C0 Velocity 127,5,127,94 18 7F 
+638,22:54:17.180,out,Note off C0 Velocity 0,5,0,84 18 00 
+639,22:54:17.329,out,Note on C0 Velocity 127,5,127,94 18 7F 
+640,22:54:17.360,out,Note off C0 Velocity 0,5,0,84 18 00 
+641,22:54:17.531,out,Note on C0 Velocity 127,5,127,94 18 7F 
+642,22:54:17.600,out,Note off C0 Velocity 0,5,0,84 18 00 
+643,22:54:17.760,out,Note on C#0 Velocity 127,5,127,94 19 7F 
+644,22:54:17.842,out,Note off C#0 Velocity 0,5,0,84 19 00 
+645,22:54:17.992,out,Note on C#0 Velocity 127,5,127,94 19 7F 
+646,22:54:18.070,out,Note off C#0 Velocity 0,5,0,84 19 00 
+647,22:54:18.251,out,Note on D0 Velocity 127,5,127,94 1A 7F 
+648,22:54:18.310,out,Note off D0 Velocity 0,5,0,84 1A 00 
+649,22:54:18.480,out,Note on D0 Velocity 127,5,127,94 1A 7F 
+650,22:54:18.550,out,Note off D0 Velocity 0,5,0,84 1A 00 
+651,22:54:18.751,out,Note on G-2 Velocity 127,5,127,94 07 7F 
+652,22:54:18.930,out,Note off G-2 Velocity 0,5,0,84 07 00 
+653,22:54:19.110,out,Note on C#-1 Velocity 127,5,127,94 0D 7F 
+654,22:54:19.281,out,Note off C#-1 Velocity 0,5,0,84 0D 00 
+655,22:54:19.430,out,Note on C-2 Velocity 127,5,127,94 00 7F 
+656,22:54:19.569,out,Note off C-2 Velocity 0,5,0,84 00 00 
+657,22:54:19.990,out,Note on B-2 Velocity 127,5,127,94 0B 7F 
+658,22:54:20.129,out,Note off B-2 Velocity 0,5,0,84 0B 00 
+659,22:54:20.350,out,Note on D#0 Velocity 127,5,127,94 1B 7F 
+660,22:54:20.471,out,Note off D#0 Velocity 0,5,0,84 1B 00 
+661,22:54:20.632,out,Note on B-1 Velocity 127,5,127,94 17 7F 
+662,22:54:20.750,out,Note off B-1 Velocity 0,5,0,84 17 00 
+663,22:54:20.920,out,Note on A#-1 Velocity 127,5,127,94 16 7F 
+664,22:54:21.061,out,Note off A#-1 Velocity 0,5,0,84 16 00 
+665,22:54:21.220,out,Note on A-1 Velocity 127,5,127,94 15 7F 
+666,22:54:21.310,out,Note off A-1 Velocity 0,5,0,84 15 00 
+667,22:54:21.451,out,Note on C#0 Velocity 127,5,127,94 19 7F 
+668,22:54:21.529,out,Note off C#0 Velocity 0,5,0,84 19 00 
+669,22:54:21.555,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+670,22:54:21.709,out,Note on D0 Velocity 127,5,127,94 1A 7F 
+671,22:54:21.850,out,Note off D0 Velocity 0,5,0,84 1A 00 
+672,22:54:22.052,out,Note on G#-1 Velocity 127,5,127,94 14 7F 
+673,22:54:22.122,out,Controller Data Entry (coarse): 127,1,127,B0 06 7F 
+674,22:54:22.136,out,Controller Data Entry (coarse): 1,1,1,B0 06 01 
+675,22:54:22.139,out,Note off G#-1 Velocity 0,5,0,84 14 00 
+676,22:54:22.831,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+677,22:54:22.842,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+678,22:54:22.843,out,Controller Balance (coarse): 69,2,69,B1 08 45 
+679,22:54:22.848,out,Controller Balance (coarse): 71,2,71,B1 08 47 
+680,22:54:22.848,out,Controller Balance (coarse): 75,2,75,B1 08 4B 
+681,22:54:22.852,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+682,22:54:22.853,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+683,22:54:22.859,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+684,22:54:22.862,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+685,22:54:22.862,out,Controller Balance (coarse): 97,2,97,B1 08 61 
+686,22:54:22.869,out,Controller Balance (coarse): 101,2,101,B1 08 65 
+687,22:54:22.870,out,Controller Balance (coarse): 105,2,105,B1 08 69 
+688,22:54:22.872,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+689,22:54:22.873,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+690,22:54:22.877,out,Controller Balance (coarse): 120,2,120,B1 08 78 
+691,22:54:22.879,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+692,22:54:22.882,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+693,22:54:22.882,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+694,22:54:22.921,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+695,22:54:22.921,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+696,22:54:23.081,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+697,22:54:23.121,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+698,22:54:23.125,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+699,22:54:23.125,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+700,22:54:23.130,out,Controller Balance (coarse): 95,2,95,B1 08 5F 
+701,22:54:23.130,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+702,22:54:23.134,out,Controller Balance (coarse): 103,2,103,B1 08 67 
+703,22:54:23.134,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+704,22:54:23.140,out,Controller Balance (coarse): 116,2,116,B1 08 74 
+705,22:54:23.140,out,Controller Balance (coarse): 123,2,123,B1 08 7B 
+706,22:54:23.144,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+707,22:54:23.171,out,Note off A-1 Velocity 0,6,0,85 15 00 
+708,22:54:23.171,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+709,22:54:23.323,out,Note on C#0 Velocity 127,6,127,95 19 7F 
+710,22:54:23.422,out,Note off C#0 Velocity 0,6,0,85 19 00 
+711,22:54:23.582,out,Note on A#-1 Velocity 127,6,127,95 16 7F 
+712,22:54:23.584,out,Controller Balance (coarse): 46,2,46,B1 08 2E 
+713,22:54:23.584,out,Controller Balance (coarse): 48,2,48,B1 08 30 
+714,22:54:23.589,out,Controller Balance (coarse): 50,2,50,B1 08 32 
+715,22:54:23.589,out,Controller Balance (coarse): 53,2,53,B1 08 35 
+716,22:54:23.594,out,Controller Balance (coarse): 56,2,56,B1 08 38 
+717,22:54:23.595,out,Controller Balance (coarse): 59,2,59,B1 08 3B 
+718,22:54:23.598,out,Controller Balance (coarse): 61,2,61,B1 08 3D 
+719,22:54:23.599,out,Controller Balance (coarse): 64,2,64,B1 08 40 
+720,22:54:23.604,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+721,22:54:23.608,out,Controller Balance (coarse): 70,2,70,B1 08 46 
+722,22:54:23.609,out,Controller Balance (coarse): 73,2,73,B1 08 49 
+723,22:54:23.613,out,Controller Balance (coarse): 78,2,78,B1 08 4E 
+724,22:54:23.613,out,Controller Balance (coarse): 82,2,82,B1 08 52 
+725,22:54:23.618,out,Controller Balance (coarse): 85,2,85,B1 08 55 
+726,22:54:23.619,out,Controller Balance (coarse): 90,2,90,B1 08 5A 
+727,22:54:23.625,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+728,22:54:23.625,out,Controller Balance (coarse): 96,2,96,B1 08 60 
+729,22:54:23.628,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+730,22:54:23.628,out,Controller Balance (coarse): 102,2,102,B1 08 66 
+731,22:54:23.634,out,Controller Balance (coarse): 104,2,104,B1 08 68 
+732,22:54:23.635,out,Controller Balance (coarse): 107,2,107,B1 08 6B 
+733,22:54:23.638,out,Controller Balance (coarse): 110,2,110,B1 08 6E 
+734,22:54:23.639,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+735,22:54:23.643,out,Controller Balance (coarse): 118,2,118,B1 08 76 
+736,22:54:23.644,out,Controller Balance (coarse): 121,2,121,B1 08 79 
+737,22:54:23.648,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+738,22:54:23.648,out,Controller Balance (coarse): 125,2,125,B1 08 7D 
+739,22:54:23.654,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+740,22:54:23.671,out,Note off A#-1 Velocity 0,6,0,85 16 00 
+741,22:54:23.671,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+742,22:54:23.814,out,Note on D0 Velocity 127,6,127,95 1A 7F 
+743,22:54:23.914,out,Note off D0 Velocity 0,6,0,85 1A 00 
+744,22:54:24.052,out,Note on B-1 Velocity 127,6,127,95 17 7F 
+745,22:54:24.058,out,Controller Balance (coarse): 83,2,83,B1 08 53 
+746,22:54:24.058,out,Controller Balance (coarse): 87,2,87,B1 08 57 
+747,22:54:24.060,out,Controller Balance (coarse): 90,2,90,B1 08 5A 
+748,22:54:24.060,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+749,22:54:24.064,out,Controller Balance (coarse): 95,2,95,B1 08 5F 
+750,22:54:24.069,out,Controller Balance (coarse): 97,2,97,B1 08 61 
+751,22:54:24.069,out,Controller Balance (coarse): 100,2,100,B1 08 64 
+752,22:54:24.074,out,Controller Balance (coarse): 102,2,102,B1 08 66 
+753,22:54:24.074,out,Controller Balance (coarse): 103,2,103,B1 08 67 
+754,22:54:24.079,out,Controller Balance (coarse): 106,2,106,B1 08 6A 
+755,22:54:24.079,out,Controller Balance (coarse): 108,2,108,B1 08 6C 
+756,22:54:24.084,out,Controller Balance (coarse): 110,2,110,B1 08 6E 
+757,22:54:24.084,out,Controller Balance (coarse): 113,2,113,B1 08 71 
+758,22:54:24.090,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+759,22:54:24.090,out,Controller Balance (coarse): 118,2,118,B1 08 76 
+760,22:54:24.094,out,Controller Balance (coarse): 120,2,120,B1 08 78 
+761,22:54:24.094,out,Controller Balance (coarse): 122,2,122,B1 08 7A 
+762,22:54:24.100,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+763,22:54:24.103,out,Controller Balance (coarse): 125,2,125,B1 08 7D 
+764,22:54:24.104,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+765,22:54:24.108,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+766,22:54:24.114,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+767,22:54:24.120,out,Controller Balance (coarse): 125,2,125,B1 08 7D 
+768,22:54:24.121,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+769,22:54:24.124,out,Controller Balance (coarse): 123,2,123,B1 08 7B 
+770,22:54:24.124,out,Controller Balance (coarse): 122,2,122,B1 08 7A 
+771,22:54:24.129,out,Controller Balance (coarse): 121,2,121,B1 08 79 
+772,22:54:24.129,out,Controller Balance (coarse): 119,2,119,B1 08 77 
+773,22:54:24.134,out,Controller Balance (coarse): 118,2,118,B1 08 76 
+774,22:54:24.134,out,Controller Balance (coarse): 116,2,116,B1 08 74 
+775,22:54:24.139,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+776,22:54:24.139,out,Controller Balance (coarse): 114,2,114,B1 08 72 
+777,22:54:24.141,out,Note off B-1 Velocity 0,6,0,85 17 00 
+778,22:54:24.141,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+779,22:54:24.292,out,Note on D#0 Velocity 127,6,127,95 1B 7F 
+780,22:54:24.433,out,Note off D#0 Velocity 0,6,0,85 1B 00 
+781,22:54:24.821,out,Note on C0 Velocity 127,6,127,95 18 7F 
+782,22:54:24.932,out,Note off C0 Velocity 0,6,0,85 18 00 
+783,22:54:25.121,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+784,22:54:25.162,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+785,22:54:25.164,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+786,22:54:25.164,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+787,22:54:25.169,out,Controller Balance (coarse): 95,2,95,B1 08 5F 
+788,22:54:25.170,out,Controller Balance (coarse): 99,2,99,B1 08 63 
+789,22:54:25.175,out,Controller Balance (coarse): 103,2,103,B1 08 67 
+790,22:54:25.175,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+791,22:54:25.180,out,Controller Balance (coarse): 116,2,116,B1 08 74 
+792,22:54:25.180,out,Controller Balance (coarse): 123,2,123,B1 08 7B 
+793,22:54:25.185,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+794,22:54:25.191,out,Note off A-1 Velocity 0,6,0,85 15 00 
+795,22:54:25.191,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+796,22:54:25.341,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+797,22:54:25.353,out,Controller Balance (coarse): 67,2,67,B1 08 43 
+798,22:54:25.353,out,Controller Balance (coarse): 69,2,69,B1 08 45 
+799,22:54:25.357,out,Controller Balance (coarse): 71,2,71,B1 08 47 
+800,22:54:25.357,out,Controller Balance (coarse): 75,2,75,B1 08 4B 
+801,22:54:25.362,out,Controller Balance (coarse): 79,2,79,B1 08 4F 
+802,22:54:25.363,out,Controller Balance (coarse): 84,2,84,B1 08 54 
+803,22:54:25.368,out,Controller Balance (coarse): 89,2,89,B1 08 59 
+804,22:54:25.372,out,Controller Balance (coarse): 93,2,93,B1 08 5D 
+805,22:54:25.373,out,Controller Balance (coarse): 97,2,97,B1 08 61 
+806,22:54:25.377,out,Controller Balance (coarse): 101,2,101,B1 08 65 
+807,22:54:25.377,out,Controller Balance (coarse): 105,2,105,B1 08 69 
+808,22:54:25.383,out,Controller Balance (coarse): 109,2,109,B1 08 6D 
+809,22:54:25.383,out,Controller Balance (coarse): 115,2,115,B1 08 73 
+810,22:54:25.387,out,Controller Balance (coarse): 120,2,120,B1 08 78 
+811,22:54:25.387,out,Controller Balance (coarse): 124,2,124,B1 08 7C 
+812,22:54:25.393,out,Controller Balance (coarse): 126,2,126,B1 08 7E 
+813,22:54:25.393,out,Controller Balance (coarse): 127,2,127,B1 08 7F 
+814,22:54:25.432,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+815,22:54:25.432,out,Controller Balance (coarse): 64,16,64,BF 08 40 
+816,22:54:25.562,out,Note on C-2 Velocity 127,6,127,95 00 7F 
+817,22:54:25.722,out,Note off C-2 Velocity 0,6,0,85 00 00 
+818,22:54:25.932,out,Note on C#-1 Velocity 127,6,127,95 0D 7F 
+819,22:54:26.033,out,Note off C#-1 Velocity 0,6,0,85 0D 00 
+820,22:54:26.284,out,Note on G-2 Velocity 127,6,127,95 07 7F 
+821,22:54:26.361,out,Note off G-2 Velocity 0,6,0,85 07 00 
+822,22:54:26.574,out,Note on B-2 Velocity 127,6,127,95 0B 7F 
+823,22:54:26.662,out,Note off B-2 Velocity 0,6,0,85 0B 00 
+824,22:54:26.873,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+825,22:54:26.942,out,Note off A-1 Velocity 0,6,0,85 15 00 
+826,22:54:27.151,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+827,22:54:27.233,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+828,22:54:27.400,out,Note on C0 Velocity 127,6,127,95 18 7F 
+829,22:54:27.492,out,Note off C0 Velocity 0,6,0,85 18 00 
+830,22:54:27.662,out,Note on C#0 Velocity 127,6,127,95 19 7F 
+831,22:54:27.784,out,Note off C#0 Velocity 0,6,0,85 19 00 
+832,22:54:27.923,out,Note on D0 Velocity 127,6,127,95 1A 7F 
+833,22:54:28.042,out,Note off D0 Velocity 0,6,0,85 1A 00 
+834,22:54:28.361,out,Note on C-2 Velocity 127,6,127,95 00 7F 
+835,22:54:28.452,out,Note off C-2 Velocity 0,6,0,85 00 00 
+836,22:54:28.642,out,Note on G#-1 Velocity 127,6,127,95 14 7F 
+837,22:54:28.722,out,Note off G#-1 Velocity 0,6,0,85 14 00 
+838,22:54:28.883,out,Note on A-1 Velocity 127,6,127,95 15 7F 
+839,22:54:28.992,out,Note off A-1 Velocity 0,6,0,85 15 00 
+
