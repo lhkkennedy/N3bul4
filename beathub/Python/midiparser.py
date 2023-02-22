@@ -14,7 +14,7 @@ long = 'mididatatestlong.csv'
 fxpads = 'fxpadsmididata.csv'
 startstop = 'startstop_Midi.csv'
 
-select = startstop
+select = easy
 data = 'midi\{}'.format(select)
 df = pd.read_csv(data, header=None, names=columns)
 df2 = pd.read_csv('midiDict.csv')
@@ -32,10 +32,16 @@ class midiEvent:
 
 	def add_new_event(self):
 		if isinstance(self.value, list) == True:
+			value_string='['
+			for count, x in enumerate(event_values):
+				value_string += event_values[count]
+				if count != len(event_values)-1:
+					value_string += ','
+
+			value_string += ']'
 			print("|", len(event_array), "|", self.name, "|", self.hex,"|", self.time, "|", self.booleon, "|", self.value[0], "|", self.value[len(self.value)-1], "|", len(self.value), "|")
-			event_string = '{"midi_item_name": '+str(self.name)+', "midi-item-hex": '+str(self.hex)+', "midi-item-channel": '+str(self.channel)+',\
-"midi-item-booleon": '+str(self.booleon)+', "midi-item-time": '+str(self.time)+', "midi-item-value": '+str(self.value)+',\
-"midi-item-length": '+str(self.length)+'"midi-item-active":"False"}'
+			event_string = '{"midi-item-name":"'+str(self.name)+'","midi-item-hex":"'+str(self.hex)+'","midi-item-channel":"'+str(self.channel)+'",\
+"midi-item-booleon":"'+str(self.booleon)+'","midi-item-time":"'+str(self.time)+'","midi-item-value":'+value_string+',"midi-item-length":"'+str(self.length)+'","midi-item-active":"False"}'
 		else:
 			print("|", len(event_array), "|", self.name, "|", self.hex,"|", self.time, "|", self.booleon, "|", self.value, "|", "---", "|", "---", "|")
 			event_string = '{"midi-item-name":"'+str(self.name)+'","midi-item-hex":"'+str(self.hex)+'","midi-item-channel":"'+str(self.channel)+'",\
@@ -71,9 +77,6 @@ for count, x in enumerate(df.index):
 			event_active = df2['active'][count2]
 			tick_active = df['active'][count]
 			event_values = []
-
-
-
 			
 			if event_booleon == False and event_active == False and tick_active == False:
 				df2.at[count2, 'active'] = True
@@ -90,7 +93,7 @@ for count, x in enumerate(df.index):
 						event_length += 1
 						tick_time = df['time-stamp'][current_index]
 						tick_value = df['value'][current_index]
-						tick = (tick_time, tick_value)
+						tick = '{"tick-time":"'+str(tick_time)+'","tick-value":"'+str(tick_value)+'","active":"False"}'
 						df.at[current_index, 'active'] = True
 						event_values.append(tick)
 					else:
@@ -116,5 +119,5 @@ print("===================================EVENT ARRAY===========================
 json_string = '['
 for x in event_array:
 	json_string += x+','
-json_string = json_string[:-1] + ']'
+json_string = json_string[:-1]+']'
 print(json_string)
